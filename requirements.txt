@@ -1,0 +1,15 @@
+torch
+transformers
+numpy
+scikit-learn
+bert-score
+scipy
+google-generativeai
+POT
+requests
+python-dotenv
+sentence-transformers
+rouge-score
+matplotlib
+seaborn
+pandas

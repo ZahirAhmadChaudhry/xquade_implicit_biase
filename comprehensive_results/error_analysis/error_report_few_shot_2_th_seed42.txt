@@ -1,0 +1,95 @@
+================================================================================
+ERROR ANALYSIS REPORT
+Configuration: few_shot_2
+Language: TH
+Seed: 42
+Total Samples: 240
+================================================================================
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+semantic_similarity_to_answer      : Mean=0.8989, Std=0.1972, Min=0.1316, Max=1.0000
+bertscore_f1                       : Mean=0.9629, Std=0.0611, Min=0.7392, Max=1.0000
+token_f1                           : Mean=0.7788, Std=0.3657, Min=0.0000, Max=1.0000
+exact_match                        : Mean=0.6500, Std=0.4770, Min=0.0000, Max=1.0000
+
+ERROR CATEGORIES
+--------------------------------------------------------------------------------
+Empty Output                  :     0 (  0.0%)
+Too Short                     :   196 ( 81.7%)
+Too Long                      :     0 (  0.0%)
+Low Semantic                  :    19 (  7.9%)
+Zero Exact Match              :    84 ( 35.0%)
+Low Bertscore                 :     0 (  0.0%)
+
+FAILURE EXAMPLES
+--------------------------------------------------------------------------------
+
+Too Short:
+
+  Example 1:
+    Sample ID: 5725cc38ec44d21400f3d5bb
+    Output: กฎบังคับใช้ร่วมกันว่าด้วยเรื่องถ่านหินและเหล็ก
+...
+    Expected: ด้วย กฎบังคับใช้ร่วมกันว่าด้วยเรื่องถ่านหินและเหล็ก...
+    Semantic Similarity: 0.9900792837142944
+
+  Example 2:
+    Sample ID: 57097d63ed30961900e841fe
+    Output: Virgin Media
+...
+    Expected: Virgin Media...
+    Semantic Similarity: 1.0
+
+  Example 3:
+    Sample ID: 570d3468b3d812140066d543
+    Output: โรงงานผลิตรถยนต์
+...
+    Expected: รถยนต์ยี่ห้อดังหลายยี่ห้อ...
+    Semantic Similarity: 0.7265564203262329
+
+Low Semantic:
+
+  Example 1:
+    Sample ID: 5728e715ff5b5019007da917
+    Output: ปิดจีซีเอสบีไวโฮปายลงชั่วคราว
+...
+    Expected: นำประเด็นของพวกเขาเข้าสู่โต๊ะเจรจา...
+    Semantic Similarity: 0.24720382690429688
+
+  Example 2:
+    Sample ID: 571cb27fdd7acb1400e4c133
+    Output: เมื่อล้านปีที่แล้ว
+...
+    Expected: สภาพอากาศ...
+    Semantic Similarity: 0.23183812201023102
+
+  Example 3:
+    Sample ID: 571cd3b55efbb31900334e06
+    Output: ฟองอากาศของก๊าซเฉื่อย (ส่วนใหญ่คือไนโตรเจนและฮีเลียม) เกิดขึ้นในเลือด
+...
+    Expected: โรคจากการลดความอดอากาศ...
+    Semantic Similarity: 0.43810153007507324
+
+Zero Exact Match:
+
+  Example 1:
+    Sample ID: 5725cc38ec44d21400f3d5bb
+    Output: กฎบังคับใช้ร่วมกันว่าด้วยเรื่องถ่านหินและเหล็ก
+...
+    Expected: ด้วย กฎบังคับใช้ร่วมกันว่าด้วยเรื่องถ่านหินและเหล็ก...
+    Semantic Similarity: 0.9900792837142944
+
+  Example 2:
+    Sample ID: 570d3468b3d812140066d543
+    Output: โรงงานผลิตรถยนต์
+...
+    Expected: รถยนต์ยี่ห้อดังหลายยี่ห้อ...
+    Semantic Similarity: 0.7265564203262329
+
+  Example 3:
+    Sample ID: 5728e715ff5b5019007da917
+    Output: ปิดจีซีเอสบีไวโฮปายลงชั่วคราว
+...
+    Expected: นำประเด็นของพวกเขาเข้าสู่โต๊ะเจรจา...
+    Semantic Similarity: 0.24720382690429688

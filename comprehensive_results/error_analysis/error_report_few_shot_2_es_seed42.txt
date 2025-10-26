@@ -1,0 +1,95 @@
+================================================================================
+ERROR ANALYSIS REPORT
+Configuration: few_shot_2
+Language: ES
+Seed: 42
+Total Samples: 240
+================================================================================
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+semantic_similarity_to_answer      : Mean=0.8924, Std=0.1879, Min=0.1755, Max=1.0000
+bertscore_f1                       : Mean=0.9480, Std=0.0613, Min=0.7705, Max=1.0000
+token_f1                           : Mean=0.7849, Std=0.2854, Min=0.0000, Max=1.0000
+exact_match                        : Mean=0.4917, Std=0.4999, Min=0.0000, Max=1.0000
+
+ERROR CATEGORIES
+--------------------------------------------------------------------------------
+Empty Output                  :     0 (  0.0%)
+Too Short                     :   111 ( 46.2%)
+Too Long                      :     0 (  0.0%)
+Low Semantic                  :    16 (  6.7%)
+Zero Exact Match              :   122 ( 50.8%)
+Low Bertscore                 :     0 (  0.0%)
+
+FAILURE EXAMPLES
+--------------------------------------------------------------------------------
+
+Too Short:
+
+  Example 1:
+    Sample ID: 57097d63ed30961900e841fe
+    Output: Virgin Media
+...
+    Expected: Virgin Media...
+    Semantic Similarity: 1.0
+
+  Example 2:
+    Sample ID: 56e7586d37bdd419002c3eb5
+    Output: Estados Unidos
+...
+    Expected: Estados Unidos...
+    Semantic Similarity: 1.0
+
+  Example 3:
+    Sample ID: 57294209af94a219006aa201
+    Output: 1999
+...
+    Expected: 1999...
+    Semantic Similarity: 1.000000238418579
+
+Low Semantic:
+
+  Example 1:
+    Sample ID: 57263c78ec44d21400f3dc7d
+    Output: asegurar la entrega ordenada de los paquetes
+...
+    Expected: En el sistema de llamada virtual, la red garantiza la entrega secuencial de datos al servidor...
+    Semantic Similarity: 0.45424219965934753
+
+  Example 2:
+    Sample ID: 5726a5525951b619008f78de
+    Output: Tras la elección del Partido Laborista del Reino Unido para el Gobierno en 1997
+...
+    Expected: 1997...
+    Semantic Similarity: 0.44060018658638
+
+  Example 3:
+    Sample ID: 571cd3b55efbb31900334e06
+    Output: Se forman burbujas de gas inerte, principalmente nitrógeno y helio, en su sangre.
+...
+    Expected: La enfermedad por descompresión...
+    Semantic Similarity: 0.34510383009910583
+
+Zero Exact Match:
+
+  Example 1:
+    Sample ID: 5725cc38ec44d21400f3d5bb
+    Output: con reglas comunes para el carbón y el acero, y luego la energía atómica
+...
+    Expected: con reglas comunes para el carbón y el acero...
+    Semantic Similarity: 0.8528926372528076
+
+  Example 2:
+    Sample ID: 570d3468b3d812140066d543
+    Output: plantas de fabricación de las principales marcas de coches
+...
+    Expected: principales marcas de coches...
+    Semantic Similarity: 0.8280424475669861
+
+  Example 3:
+    Sample ID: 5726975c708984140094cb1f
+    Output: El Tribunal de Justicia de las Comunidades Europeas y los más altos tribunales nacionales.
+...
+    Expected: Tribunal de Justicia de las Comunidades Europeas como los más altos tribunales nacionales...
+    Semantic Similarity: 0.9907644391059875

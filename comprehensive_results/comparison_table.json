@@ -1,0 +1,1952 @@
+{
+  "bracket_prefix": {
+    "en": {
+      "avg_semantic_similarity": {
+        "config_stats": {
+          "mean": 0.777933132653642,
+          "std": 0.01997704262207757,
+          "sem": 0.011533750935469112,
+          "n_seeds": 3,
+          "values": [
+            0.7555858042401572,
+            0.794059565430507,
+            0.7841540282902618
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.7618026840293574,
+          "std": 0.01818867382096435,
+          "sem": 0.010501235726736068,
+          "n_seeds": 3,
+          "values": [
+            0.7414637307015558,
+            0.7765079173569878,
+            0.7674364040295283
+          ]
+        },
+        "comparison": {
+          "comparison": "bracket_prefix vs baseline",
+          "language": "en",
+          "metric": "avg_semantic_similarity",
+          "baseline_mean": 0.7618026840293574,
+          "baseline_std": 0.01818867382096435,
+          "config_mean": 0.777933132653642,
+          "config_std": 0.01997704262207757,
+          "mean_difference": 0.016130448624284588,
+          "percent_change": 2.117405065963639,
+          "p_value": 0.00407333989775878,
+          "cohens_d": 9.018495928670262,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_bertscore_f1": {
+        "config_stats": {
+          "mean": 0.9161818270054128,
+          "std": 0.005610843555822557,
+          "sem": 0.0032394220373350305,
+          "n_seeds": 3,
+          "values": [
+            0.9127498346070448,
+            0.9226567765076955,
+            0.9131388699014982
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.9119059414499336,
+          "std": 0.0041556778930741355,
+          "sem": 0.0023992817502317292,
+          "n_seeds": 3,
+          "values": [
+            0.9082527428865432,
+            0.9164270284275214,
+            0.911038053035736
+          ]
+        },
+        "comparison": {
+          "comparison": "bracket_prefix vs baseline",
+          "language": "en",
+          "metric": "avg_bertscore_f1",
+          "baseline_mean": 0.9119059414499336,
+          "baseline_std": 0.0041556778930741355,
+          "config_mean": 0.9161818270054128,
+          "config_std": 0.005610843555822557,
+          "mean_difference": 0.0042758855554791975,
+          "percent_change": 0.4688954596216935,
+          "p_value": 0.07021815222977193,
+          "cohens_d": 2.0623227217971016,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_token_f1": {
+        "config_stats": {
+          "mean": 0.6112955719034775,
+          "std": 0.02304653989768426,
+          "sem": 0.01330592601381746,
+          "n_seeds": 3,
+          "values": [
+            0.5859475443308485,
+            0.6309875002581293,
+            0.6169516711214549
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.5926140322467767,
+          "std": 0.01891628682372524,
+          "sem": 0.01092132328974594,
+          "n_seeds": 3,
+          "values": [
+            0.5707875355566256,
+            0.6042545624310055,
+            0.6027999987526987
+          ]
+        },
+        "comparison": {
+          "comparison": "bracket_prefix vs baseline",
+          "language": "en",
+          "metric": "avg_token_f1",
+          "baseline_mean": 0.5926140322467767,
+          "baseline_std": 0.01891628682372524,
+          "config_mean": 0.6112955719034775,
+          "config_std": 0.02304653989768426,
+          "mean_difference": 0.01868153965670083,
+          "percent_change": 3.1523957652291044,
+          "p_value": 0.04364575407724922,
+          "cohens_d": 2.6722581578029025,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_exact_match": {
+        "config_stats": {
+          "mean": 0.39444444444444443,
+          "std": 0.022948210613692094,
+          "sem": 0.013249155575235358,
+          "n_seeds": 3,
+          "values": [
+            0.37916666666666665,
+            0.42083333333333334,
+            0.38333333333333336
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.36250000000000004,
+          "std": 0.018162078931419492,
+          "sem": 0.010485881160098276,
+          "n_seeds": 3,
+          "values": [
+            0.35,
+            0.38333333333333336,
+            0.3541666666666667
+          ]
+        },
+        "comparison": {
+          "comparison": "bracket_prefix vs baseline",
+          "language": "en",
+          "metric": "avg_exact_match",
+          "baseline_mean": 0.36250000000000004,
+          "baseline_std": 0.018162078931419492,
+          "config_mean": 0.39444444444444443,
+          "config_std": 0.022948210613692094,
+          "mean_difference": 0.031944444444444386,
+          "percent_change": 8.81226053639845,
+          "p_value": 0.007476740395162877,
+          "cohens_d": 6.639528095680719,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      }
+    },
+    "es": {
+      "avg_semantic_similarity": {
+        "config_stats": {
+          "mean": 0.6940833559570213,
+          "std": 0.009702102369430846,
+          "sem": 0.005601511414696205,
+          "n_seeds": 3,
+          "values": [
+            0.6996847808050612,
+            0.6828803331280748,
+            0.6996849539379278
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.6185002277656976,
+          "std": 0.012147225438876318,
+          "sem": 0.007013203877042313,
+          "n_seeds": 3,
+          "values": [
+            0.6313966954126954,
+            0.6072753918512414,
+            0.6168285960331559
+          ]
+        },
+        "comparison": {
+          "comparison": "bracket_prefix vs baseline",
+          "language": "es",
+          "metric": "avg_semantic_similarity",
+          "baseline_mean": 0.6185002277656976,
+          "baseline_std": 0.012147225438876318,
+          "config_mean": 0.6940833559570213,
+          "config_std": 0.009702102369430846,
+          "mean_difference": 0.07558312819132373,
+          "percent_change": 12.22038809336646,
+          "p_value": 0.003081604936240121,
+          "cohens_d": 10.376367404224961,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_bertscore_f1": {
+        "config_stats": {
+          "mean": 0.880423724071847,
+          "std": 0.0022535131983752133,
+          "sem": 0.001301066451704304,
+          "n_seeds": 3,
+          "values": [
+            0.8828476622700692,
+            0.8783921731015046,
+            0.8800313368439674
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.8591249087618457,
+          "std": 0.001955372969830654,
+          "sem": 0.001128935110497846,
+          "n_seeds": 3,
+          "values": [
+            0.8612575421730677,
+            0.8587007676561673,
+            0.857416416456302
+          ]
+        },
+        "comparison": {
+          "comparison": "bracket_prefix vs baseline",
+          "language": "es",
+          "metric": "avg_bertscore_f1",
+          "baseline_mean": 0.8591249087618457,
+          "baseline_std": 0.001955372969830654,
+          "config_mean": 0.880423724071847,
+          "config_std": 0.0022535131983752133,
+          "mean_difference": 0.02129881531000133,
+          "percent_change": 2.4791290640957873,
+          "p_value": 0.001612922795677101,
+          "cohens_d": 14.358422394645213,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_token_f1": {
+        "config_stats": {
+          "mean": 0.47311279010237267,
+          "std": 0.013727255456784736,
+          "sem": 0.007925434633209426,
+          "n_seeds": 3,
+          "values": [
+            0.4874764273356026,
+            0.4601256302856253,
+            0.47173631268589017
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.3754595250248391,
+          "std": 0.013818213248010199,
+          "sem": 0.007977949138458342,
+          "n_seeds": 3,
+          "values": [
+            0.3903722204444948,
+            0.36308874409663106,
+            0.3729176105333913
+          ]
+        },
+        "comparison": {
+          "comparison": "bracket_prefix vs baseline",
+          "language": "es",
+          "metric": "avg_token_f1",
+          "baseline_mean": 0.3754595250248391,
+          "baseline_std": 0.013818213248010199,
+          "config_mean": 0.47311279010237267,
+          "config_std": 0.013727255456784736,
+          "mean_difference": 0.09765326507753358,
+          "percent_change": 26.00899925792885,
+          "p_value": 3.564541543005638e-05,
+          "cohens_d": 96.69987699716779,
+          "n_seeds": 3,
+          "significant": "True"
+        },
+        "bonferroni_significant": true
+      },
+      "avg_exact_match": {
+        "config_stats": {
+          "mean": 0.21527777777777776,
+          "std": 0.030712978315966637,
+          "sem": 0.017732146298338476,
+          "n_seeds": 3,
+          "values": [
+            0.25,
+            0.19166666666666668,
+            0.20416666666666666
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.1125,
+          "std": 0.02886751345948129,
+          "sem": 0.01666666666666667,
+          "n_seeds": 3,
+          "values": [
+            0.14583333333333334,
+            0.09583333333333334,
+            0.09583333333333334
+          ]
+        },
+        "comparison": {
+          "comparison": "bracket_prefix vs baseline",
+          "language": "es",
+          "metric": "avg_exact_match",
+          "baseline_mean": 0.1125,
+          "baseline_std": 0.02886751345948129,
+          "config_mean": 0.21527777777777776,
+          "config_std": 0.030712978315966637,
+          "mean_difference": 0.10277777777777776,
+          "percent_change": 91.35802469135801,
+          "p_value": 0.001275859446003594,
+          "cohens_d": 16.14812387746346,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      }
+    },
+    "th": {
+      "avg_semantic_similarity": {
+        "config_stats": {
+          "mean": 0.6979354466001192,
+          "std": 0.011252688143494368,
+          "sem": 0.006496742528753384,
+          "n_seeds": 3,
+          "values": [
+            0.702841199748218,
+            0.6850627245381474,
+            0.7059024155139924
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.6062749688306616,
+          "std": 0.01704936913045254,
+          "sem": 0.00984345785698007,
+          "n_seeds": 3,
+          "values": [
+            0.608775897603482,
+            0.5881132654535274,
+            0.6219357434349756
+          ]
+        },
+        "comparison": {
+          "comparison": "bracket_prefix vs baseline",
+          "language": "th",
+          "metric": "avg_semantic_similarity",
+          "baseline_mean": 0.6062749688306616,
+          "baseline_std": 0.01704936913045254,
+          "config_mean": 0.6979354466001192,
+          "config_std": 0.011252688143494368,
+          "mean_difference": 0.09166047776945763,
+          "percent_change": 15.118631393647275,
+          "p_value": 0.0018388237685728788,
+          "cohens_d": 13.445276309119011,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_bertscore_f1": {
+        "config_stats": {
+          "mean": 0.8979784551593992,
+          "std": 0.003925460152047687,
+          "sem": 0.0022663654754778817,
+          "n_seeds": 3,
+          "values": [
+            0.901515640815099,
+            0.8937551779051621,
+            0.8986645467579365
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.8835058895250162,
+          "std": 0.0037408269775375145,
+          "sem": 0.0021597674624730984,
+          "n_seeds": 3,
+          "values": [
+            0.8851809032261372,
+            0.8792202624181906,
+            0.8861165029307206
+          ]
+        },
+        "comparison": {
+          "comparison": "bracket_prefix vs baseline",
+          "language": "th",
+          "metric": "avg_bertscore_f1",
+          "baseline_mean": 0.8835058895250162,
+          "baseline_std": 0.0037408269775375145,
+          "config_mean": 0.8979784551593992,
+          "config_std": 0.003925460152047687,
+          "mean_difference": 0.014472565634383039,
+          "percent_change": 1.6380836625960322,
+          "p_value": 0.005661102852437391,
+          "cohens_d": 7.640799377670561,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_token_f1": {
+        "config_stats": {
+          "mean": 0.4278823368290858,
+          "std": 0.0061646079001339265,
+          "sem": 0.0035591380305908162,
+          "n_seeds": 3,
+          "values": [
+            0.4323625489103832,
+            0.42085180644999465,
+            0.4304326551268793
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.38897807479890917,
+          "std": 0.00989096344025518,
+          "sem": 0.0057105504047760755,
+          "n_seeds": 3,
+          "values": [
+            0.39845773540948987,
+            0.37872161655550135,
+            0.3897548724317363
+          ]
+        },
+        "comparison": {
+          "comparison": "bracket_prefix vs baseline",
+          "language": "th",
+          "metric": "avg_token_f1",
+          "baseline_mean": 0.38897807479890917,
+          "baseline_std": 0.00989096344025518,
+          "config_mean": 0.4278823368290858,
+          "config_std": 0.0061646079001339265,
+          "mean_difference": 0.038904262030176606,
+          "percent_change": 10.001659360952162,
+          "p_value": 0.0042177865300496754,
+          "cohens_d": 8.861757540825856,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_exact_match": {
+        "config_stats": {
+          "mean": 0.19166666666666665,
+          "std": 0.02916666666666667,
+          "sem": 0.016839382851364087,
+          "n_seeds": 3,
+          "values": [
+            0.2125,
+            0.15833333333333333,
+            0.20416666666666666
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.09722222222222222,
+          "std": 0.019690898442719207,
+          "sem": 0.011368545516489517,
+          "n_seeds": 3,
+          "values": [
+            0.1125,
+            0.075,
+            0.10416666666666667
+          ]
+        },
+        "comparison": {
+          "comparison": "bracket_prefix vs baseline",
+          "language": "th",
+          "metric": "avg_exact_match",
+          "baseline_mean": 0.09722222222222222,
+          "baseline_std": 0.019690898442719207,
+          "config_mean": 0.19166666666666665,
+          "config_std": 0.02916666666666667,
+          "mean_difference": 0.09444444444444443,
+          "percent_change": 97.14285714285712,
+          "p_value": 0.0034423510070664123,
+          "cohens_d": 9.81495457622364,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      }
+    },
+    "ar": {
+      "avg_semantic_similarity": {
+        "config_stats": {
+          "mean": 0.7158734801121884,
+          "std": 0.009208904294937573,
+          "sem": 0.005316763373623709,
+          "n_seeds": 3,
+          "values": [
+            0.7052748213832577,
+            0.7204276630654931,
+            0.7219179558878144
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.6406816720755564,
+          "std": 0.0037548134110900484,
+          "sem": 0.0021678425336496567,
+          "n_seeds": 3,
+          "values": [
+            0.641468789242208,
+            0.6439805325741569,
+            0.6365956944103043
+          ]
+        },
+        "comparison": {
+          "comparison": "bracket_prefix vs baseline",
+          "language": "ar",
+          "metric": "avg_semantic_similarity",
+          "baseline_mean": 0.6406816720755564,
+          "baseline_std": 0.0037548134110900484,
+          "config_mean": 0.7158734801121884,
+          "config_std": 0.009208904294937573,
+          "mean_difference": 0.07519180803663206,
+          "percent_change": 11.736219610128725,
+          "p_value": 0.006822758995034423,
+          "cohens_d": 6.953895409267538,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_bertscore_f1": {
+        "config_stats": {
+          "mean": 0.879773251960675,
+          "std": 0.0029503138754089337,
+          "sem": 0.001703364510161236,
+          "n_seeds": 3,
+          "values": [
+            0.8831792863706748,
+            0.878010659913222,
+            0.878129809598128
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.8729681603610514,
+          "std": 0.0023760504268870654,
+          "sem": 0.0013718133535713724,
+          "n_seeds": 3,
+          "values": [
+            0.8753655220071475,
+            0.8729249484837055,
+            0.8706140105923017
+          ]
+        },
+        "comparison": {
+          "comparison": "bracket_prefix vs baseline",
+          "language": "ar",
+          "metric": "avg_bertscore_f1",
+          "baseline_mean": 0.8729681603610514,
+          "baseline_std": 0.0023760504268870654,
+          "config_mean": 0.879773251960675,
+          "config_std": 0.0029503138754089337,
+          "mean_difference": 0.006805091599623614,
+          "percent_change": 0.7795349141724816,
+          "p_value": 0.015739583859715182,
+          "cohens_d": 4.547455236067572,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_token_f1": {
+        "config_stats": {
+          "mean": 0.4980291154866614,
+          "std": 0.011748743423738946,
+          "sem": 0.006783140178335526,
+          "n_seeds": 3,
+          "values": [
+            0.49758256963628505,
+            0.4865100113254381,
+            0.5099947654982612
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.40645291708781,
+          "std": 0.008030797609491212,
+          "sem": 0.0046365831616471545,
+          "n_seeds": 3,
+          "values": [
+            0.4154750209807558,
+            0.40379792043503904,
+            0.40008580984763514
+          ]
+        },
+        "comparison": {
+          "comparison": "bracket_prefix vs baseline",
+          "language": "ar",
+          "metric": "avg_token_f1",
+          "baseline_mean": 0.40645291708781,
+          "baseline_std": 0.008030797609491212,
+          "config_mean": 0.4980291154866614,
+          "config_std": 0.011748743423738946,
+          "mean_difference": 0.0915761983988514,
+          "percent_change": 22.530579692965347,
+          "p_value": 0.009874559656586509,
+          "cohens_d": 5.766940826642266,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_exact_match": {
+        "config_stats": {
+          "mean": 0.24722222222222223,
+          "std": 0.020553678592984355,
+          "sem": 0.011866671868496567,
+          "n_seeds": 3,
+          "values": [
+            0.2708333333333333,
+            0.23333333333333334,
+            0.2375
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.14583333333333334,
+          "std": 0.022047927592204926,
+          "sem": 0.012729376930432893,
+          "n_seeds": 3,
+          "values": [
+            0.1625,
+            0.15416666666666667,
+            0.12083333333333333
+          ]
+        },
+        "comparison": {
+          "comparison": "bracket_prefix vs baseline",
+          "language": "ar",
+          "metric": "avg_exact_match",
+          "baseline_mean": 0.14583333333333334,
+          "baseline_std": 0.022047927592204926,
+          "config_mean": 0.24722222222222223,
+          "config_std": 0.020553678592984355,
+          "mean_difference": 0.10138888888888889,
+          "percent_change": 69.52380952380952,
+          "p_value": 0.012340467197024607,
+          "cohens_d": 5.149022995767768,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      }
+    }
+  },
+  "few_shot_2": {
+    "en": {
+      "avg_semantic_similarity": {
+        "config_stats": {
+          "mean": 0.9217843128782178,
+          "std": 0.01849944814653224,
+          "sem": 0.010680661367259913,
+          "n_seeds": 3,
+          "values": [
+            0.9004946237429976,
+            0.9309154090782007,
+            0.9339429058134556
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.7618026840293574,
+          "std": 0.01818867382096435,
+          "sem": 0.010501235726736068,
+          "n_seeds": 3,
+          "values": [
+            0.7414637307015558,
+            0.7765079173569878,
+            0.7674364040295283
+          ]
+        },
+        "comparison": {
+          "comparison": "few_shot_2 vs baseline",
+          "language": "en",
+          "metric": "avg_semantic_similarity",
+          "baseline_mean": 0.7618026840293574,
+          "baseline_std": 0.01818867382096435,
+          "config_mean": 0.9217843128782178,
+          "config_std": 0.01849944814653224,
+          "mean_difference": 0.15998162884886047,
+          "percent_change": 21.00040236176108,
+          "p_value": 0.00048510246475134993,
+          "cohens_d": 26.203818298521764,
+          "n_seeds": 3,
+          "significant": "True"
+        },
+        "bonferroni_significant": true
+      },
+      "avg_bertscore_f1": {
+        "config_stats": {
+          "mean": 0.9660234507587221,
+          "std": 0.004705905140599942,
+          "sem": 0.0027169555997062205,
+          "n_seeds": 3,
+          "values": [
+            0.9606016151607036,
+            0.9684208127359549,
+            0.9690479243795077
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.9119059414499336,
+          "std": 0.0041556778930741355,
+          "sem": 0.0023992817502317292,
+          "n_seeds": 3,
+          "values": [
+            0.9082527428865432,
+            0.9164270284275214,
+            0.911038053035736
+          ]
+        },
+        "comparison": {
+          "comparison": "few_shot_2 vs baseline",
+          "language": "en",
+          "metric": "avg_bertscore_f1",
+          "baseline_mean": 0.9119059414499336,
+          "baseline_std": 0.0041556778930741355,
+          "config_mean": 0.9660234507587221,
+          "config_std": 0.004705905140599942,
+          "mean_difference": 0.05411750930878845,
+          "percent_change": 5.934549480261245,
+          "p_value": 0.0012943452962779225,
+          "cohens_d": 16.032172751363564,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_token_f1": {
+        "config_stats": {
+          "mean": 0.8427277334858766,
+          "std": 0.024239132489301568,
+          "sem": 0.013994469667621265,
+          "n_seeds": 3,
+          "values": [
+            0.8149148296145846,
+            0.8539199032846376,
+            0.8593484675584079
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.5926140322467767,
+          "std": 0.01891628682372524,
+          "sem": 0.01092132328974594,
+          "n_seeds": 3,
+          "values": [
+            0.5707875355566256,
+            0.6042545624310055,
+            0.6027999987526987
+          ]
+        },
+        "comparison": {
+          "comparison": "few_shot_2 vs baseline",
+          "language": "en",
+          "metric": "avg_token_f1",
+          "baseline_mean": 0.5926140322467767,
+          "baseline_std": 0.01891628682372524,
+          "config_mean": 0.8427277334858766,
+          "config_std": 0.024239132489301568,
+          "mean_difference": 0.25011370123909993,
+          "percent_change": 42.20516012603418,
+          "p_value": 0.00020626665822673582,
+          "cohens_d": 40.19367003783631,
+          "n_seeds": 3,
+          "significant": "True"
+        },
+        "bonferroni_significant": true
+      },
+      "avg_exact_match": {
+        "config_stats": {
+          "mean": 0.6597222222222222,
+          "std": 0.04173605333699086,
+          "sem": 0.024096321629024253,
+          "n_seeds": 3,
+          "values": [
+            0.6125,
+            0.675,
+            0.6916666666666667
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.36250000000000004,
+          "std": 0.018162078931419492,
+          "sem": 0.010485881160098276,
+          "n_seeds": 3,
+          "values": [
+            0.35,
+            0.38333333333333336,
+            0.3541666666666667
+          ]
+        },
+        "comparison": {
+          "comparison": "few_shot_2 vs baseline",
+          "language": "en",
+          "metric": "avg_exact_match",
+          "baseline_mean": 0.36250000000000004,
+          "baseline_std": 0.018162078931419492,
+          "config_mean": 0.6597222222222222,
+          "config_std": 0.04173605333699086,
+          "mean_difference": 0.29722222222222217,
+          "percent_change": 81.99233716475092,
+          "p_value": 0.005350238210346997,
+          "cohens_d": 7.8614864345659115,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      }
+    },
+    "es": {
+      "avg_semantic_similarity": {
+        "config_stats": {
+          "mean": 0.9078324217970173,
+          "std": 0.01341618451307619,
+          "sem": 0.007745837740122228,
+          "n_seeds": 3,
+          "values": [
+            0.8923771804819505,
+            0.9164796313891809,
+            0.9146404535199205
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.6185002277656976,
+          "std": 0.012147225438876318,
+          "sem": 0.007013203877042313,
+          "n_seeds": 3,
+          "values": [
+            0.6313966954126954,
+            0.6072753918512414,
+            0.6168285960331559
+          ]
+        },
+        "comparison": {
+          "comparison": "few_shot_2 vs baseline",
+          "language": "es",
+          "metric": "avg_semantic_similarity",
+          "baseline_mean": 0.6185002277656976,
+          "baseline_std": 0.012147225438876318,
+          "config_mean": 0.9078324217970173,
+          "config_std": 0.01341618451307619,
+          "mean_difference": 0.2893321940313197,
+          "percent_change": 46.77964227701555,
+          "p_value": 0.002520156692662827,
+          "cohens_d": 11.478985941537198,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_bertscore_f1": {
+        "config_stats": {
+          "mean": 0.9547200327118238,
+          "std": 0.005804381221650694,
+          "sem": 0.0033511610607992372,
+          "n_seeds": 3,
+          "values": [
+            0.9480177516738574,
+            0.9580508500337601,
+            0.9580914964278539
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.8591249087618457,
+          "std": 0.001955372969830654,
+          "sem": 0.001128935110497846,
+          "n_seeds": 3,
+          "values": [
+            0.8612575421730677,
+            0.8587007676561673,
+            0.857416416456302
+          ]
+        },
+        "comparison": {
+          "comparison": "few_shot_2 vs baseline",
+          "language": "es",
+          "metric": "avg_bertscore_f1",
+          "baseline_mean": 0.8591249087618457,
+          "baseline_std": 0.001955372969830654,
+          "config_mean": 0.9547200327118238,
+          "config_std": 0.005804381221650694,
+          "mean_difference": 0.09559512394997816,
+          "percent_change": 11.12703437824286,
+          "p_value": 0.002144462064873362,
+          "cohens_d": 12.44746223916819,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_token_f1": {
+        "config_stats": {
+          "mean": 0.8045186930583954,
+          "std": 0.017080015364156487,
+          "sem": 0.009861151468258693,
+          "n_seeds": 3,
+          "values": [
+            0.7848969415813793,
+            0.8160520892091147,
+            0.8126070483846923
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.3754595250248391,
+          "std": 0.013818213248010199,
+          "sem": 0.007977949138458342,
+          "n_seeds": 3,
+          "values": [
+            0.3903722204444948,
+            0.36308874409663106,
+            0.3729176105333913
+          ]
+        },
+        "comparison": {
+          "comparison": "few_shot_2 vs baseline",
+          "language": "es",
+          "metric": "avg_token_f1",
+          "baseline_mean": 0.3754595250248391,
+          "baseline_std": 0.013818213248010199,
+          "config_mean": 0.8045186930583954,
+          "config_std": 0.017080015364156487,
+          "mean_difference": 0.4290591680335563,
+          "percent_change": 114.27574463723387,
+          "p_value": 0.0016950505862033923,
+          "cohens_d": 14.00539561295173,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_exact_match": {
+        "config_stats": {
+          "mean": 0.5708333333333333,
+          "std": 0.06859199013814304,
+          "sem": 0.03960160397050905,
+          "n_seeds": 3,
+          "values": [
+            0.49166666666666664,
+            0.6125,
+            0.6083333333333333
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.1125,
+          "std": 0.02886751345948129,
+          "sem": 0.01666666666666667,
+          "n_seeds": 3,
+          "values": [
+            0.14583333333333334,
+            0.09583333333333334,
+            0.09583333333333334
+          ]
+        },
+        "comparison": {
+          "comparison": "few_shot_2 vs baseline",
+          "language": "es",
+          "metric": "avg_exact_match",
+          "baseline_mean": 0.1125,
+          "baseline_std": 0.02886751345948129,
+          "config_mean": 0.5708333333333333,
+          "config_std": 0.06859199013814304,
+          "mean_difference": 0.4583333333333333,
+          "percent_change": 407.40740740740733,
+          "p_value": 0.014736598862621521,
+          "cohens_d": 4.70326037289914,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      }
+    },
+    "th": {
+      "avg_semantic_similarity": {
+        "config_stats": {
+          "mean": 0.9125331638587846,
+          "std": 0.01364100491804985,
+          "sem": 0.00787563786145309,
+          "n_seeds": 3,
+          "values": [
+            0.8989078675707182,
+            0.9125018006811539,
+            0.9261898233244816
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.6062749688306616,
+          "std": 0.01704936913045254,
+          "sem": 0.00984345785698007,
+          "n_seeds": 3,
+          "values": [
+            0.608775897603482,
+            0.5881132654535274,
+            0.6219357434349756
+          ]
+        },
+        "comparison": {
+          "comparison": "few_shot_2 vs baseline",
+          "language": "th",
+          "metric": "avg_semantic_similarity",
+          "baseline_mean": 0.6062749688306616,
+          "baseline_std": 0.01704936913045254,
+          "config_mean": 0.9125331638587846,
+          "config_std": 0.01364100491804985,
+          "mean_difference": 0.306258195028123,
+          "percent_change": 50.51473519000977,
+          "p_value": 0.0010516759677694576,
+          "cohens_d": 17.789167919508618,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_bertscore_f1": {
+        "config_stats": {
+          "mean": 0.96862362002333,
+          "std": 0.005829720316185397,
+          "sem": 0.0033657905938498695,
+          "n_seeds": 3,
+          "values": [
+            0.962942503641049,
+            0.9683369867503643,
+            0.9745913696785767
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.8835058895250162,
+          "std": 0.0037408269775375145,
+          "sem": 0.0021597674624730984,
+          "n_seeds": 3,
+          "values": [
+            0.8851809032261372,
+            0.8792202624181906,
+            0.8861165029307206
+          ]
+        },
+        "comparison": {
+          "comparison": "few_shot_2 vs baseline",
+          "language": "th",
+          "metric": "avg_bertscore_f1",
+          "baseline_mean": 0.8835058895250162,
+          "baseline_std": 0.0037408269775375145,
+          "config_mean": 0.96862362002333,
+          "config_std": 0.005829720316185397,
+          "mean_difference": 0.08511773049831384,
+          "percent_change": 9.634087503827981,
+          "p_value": 0.0018667325553385545,
+          "cohens_d": 13.344110362807376,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_token_f1": {
+        "config_stats": {
+          "mean": 0.7912284964490848,
+          "std": 0.011030131353678137,
+          "sem": 0.006368249306243004,
+          "n_seeds": 3,
+          "values": [
+            0.7787544209603033,
+            0.7952380068188892,
+            0.7996930615680616
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.38897807479890917,
+          "std": 0.00989096344025518,
+          "sem": 0.0057105504047760755,
+          "n_seeds": 3,
+          "values": [
+            0.39845773540948987,
+            0.37872161655550135,
+            0.3897548724317363
+          ]
+        },
+        "comparison": {
+          "comparison": "few_shot_2 vs baseline",
+          "language": "th",
+          "metric": "avg_token_f1",
+          "baseline_mean": 0.38897807479890917,
+          "baseline_std": 0.00989096344025518,
+          "config_mean": 0.7912284964490848,
+          "config_std": 0.011030131353678137,
+          "mean_difference": 0.4022504216501756,
+          "percent_change": 103.4121066741687,
+          "p_value": 0.0007660752216303547,
+          "cohens_d": 20.847502118430924,
+          "n_seeds": 3,
+          "significant": "True"
+        },
+        "bonferroni_significant": true
+      },
+      "avg_exact_match": {
+        "config_stats": {
+          "mean": 0.6847222222222222,
+          "std": 0.03543708561714741,
+          "sem": 0.020459610920355874,
+          "n_seeds": 3,
+          "values": [
+            0.65,
+            0.6833333333333333,
+            0.7208333333333333
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.09722222222222222,
+          "std": 0.019690898442719207,
+          "sem": 0.011368545516489517,
+          "n_seeds": 3,
+          "values": [
+            0.1125,
+            0.075,
+            0.10416666666666667
+          ]
+        },
+        "comparison": {
+          "comparison": "few_shot_2 vs baseline",
+          "language": "th",
+          "metric": "avg_exact_match",
+          "baseline_mean": 0.09722222222222222,
+          "baseline_std": 0.019690898442719207,
+          "config_mean": 0.6847222222222222,
+          "config_std": 0.03543708561714741,
+          "mean_difference": 0.5875,
+          "percent_change": 604.2857142857142,
+          "p_value": 0.0018225458871220183,
+          "cohens_d": 13.505350621618225,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      }
+    },
+    "ar": {
+      "avg_semantic_similarity": {
+        "config_stats": {
+          "mean": 0.893607631035977,
+          "std": 0.013250346968416472,
+          "sem": 0.007650091389071192,
+          "n_seeds": 3,
+          "values": [
+            0.878394036864241,
+            0.9026221244906386,
+            0.8998067317530513
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.6406816720755564,
+          "std": 0.0037548134110900484,
+          "sem": 0.0021678425336496567,
+          "n_seeds": 3,
+          "values": [
+            0.641468789242208,
+            0.6439805325741569,
+            0.6365956944103043
+          ]
+        },
+        "comparison": {
+          "comparison": "few_shot_2 vs baseline",
+          "language": "ar",
+          "metric": "avg_semantic_similarity",
+          "baseline_mean": 0.6406816720755564,
+          "baseline_std": 0.0037548134110900484,
+          "config_mean": 0.893607631035977,
+          "config_std": 0.013250346968416472,
+          "mean_difference": 0.2529259589604206,
+          "percent_change": 39.477632962566275,
+          "p_value": 0.001026151564118524,
+          "cohens_d": 18.00939724601837,
+          "n_seeds": 3,
+          "significant": "True"
+        },
+        "bonferroni_significant": true
+      },
+      "avg_bertscore_f1": {
+        "config_stats": {
+          "mean": 0.9555181280606323,
+          "std": 0.0025647969759458183,
+          "sem": 0.0014807862244790564,
+          "n_seeds": 3,
+          "values": [
+            0.9529429545005162,
+            0.9555390087266763,
+            0.9580724209547042
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.8729681603610514,
+          "std": 0.0023760504268870654,
+          "sem": 0.0013718133535713724,
+          "n_seeds": 3,
+          "values": [
+            0.8753655220071475,
+            0.8729249484837055,
+            0.8706140105923017
+          ]
+        },
+        "comparison": {
+          "comparison": "few_shot_2 vs baseline",
+          "language": "ar",
+          "metric": "avg_bertscore_f1",
+          "baseline_mean": 0.8729681603610514,
+          "baseline_std": 0.0023760504268870654,
+          "config_mean": 0.9555181280606323,
+          "config_std": 0.0025647969759458183,
+          "mean_difference": 0.0825499676995809,
+          "percent_change": 9.456240381715526,
+          "p_value": 0.0011919624428576362,
+          "cohens_d": 16.707811607216147,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_token_f1": {
+        "config_stats": {
+          "mean": 0.7592016292526028,
+          "std": 0.008014868566816501,
+          "sem": 0.004627386524570978,
+          "n_seeds": 3,
+          "values": [
+            0.7525170731627713,
+            0.7570008349946556,
+            0.7680869796003814
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.40645291708781,
+          "std": 0.008030797609491212,
+          "sem": 0.0046365831616471545,
+          "n_seeds": 3,
+          "values": [
+            0.4154750209807558,
+            0.40379792043503904,
+            0.40008580984763514
+          ]
+        },
+        "comparison": {
+          "comparison": "few_shot_2 vs baseline",
+          "language": "ar",
+          "metric": "avg_token_f1",
+          "baseline_mean": 0.40645291708781,
+          "baseline_std": 0.008030797609491212,
+          "config_mean": 0.7592016292526028,
+          "config_std": 0.008014868566816501,
+          "mean_difference": 0.3527487121647928,
+          "percent_change": 86.78710308987279,
+          "p_value": 0.0006416928295544062,
+          "cohens_d": 22.780680255080547,
+          "n_seeds": 3,
+          "significant": "True"
+        },
+        "bonferroni_significant": true
+      },
+      "avg_exact_match": {
+        "config_stats": {
+          "mean": 0.5569444444444444,
+          "std": 0.027743033826997436,
+          "sem": 0.016017448048153863,
+          "n_seeds": 3,
+          "values": [
+            0.525,
+            0.5708333333333333,
+            0.575
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.14583333333333334,
+          "std": 0.022047927592204926,
+          "sem": 0.012729376930432893,
+          "n_seeds": 3,
+          "values": [
+            0.1625,
+            0.15416666666666667,
+            0.12083333333333333
+          ]
+        },
+        "comparison": {
+          "comparison": "few_shot_2 vs baseline",
+          "language": "ar",
+          "metric": "avg_exact_match",
+          "baseline_mean": 0.14583333333333334,
+          "baseline_std": 0.022047927592204926,
+          "config_mean": 0.5569444444444444,
+          "config_std": 0.027743033826997436,
+          "mean_difference": 0.411111111111111,
+          "percent_change": 281.9047619047618,
+          "p_value": 0.004162596826316361,
+          "cohens_d": 8.920681865247913,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      }
+    }
+  },
+  "incorrect_tag": {
+    "en": {
+      "avg_semantic_similarity": {
+        "config_stats": {
+          "mean": 0.7358260963526037,
+          "std": 0.023847686420258127,
+          "sem": 0.013768468174285814,
+          "n_seeds": 3,
+          "values": [
+            0.7150268063570062,
+            0.7618543785065413,
+            0.7305971041942636
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.7618026840293574,
+          "std": 0.01818867382096435,
+          "sem": 0.010501235726736068,
+          "n_seeds": 3,
+          "values": [
+            0.7414637307015558,
+            0.7765079173569878,
+            0.7674364040295283
+          ]
+        },
+        "comparison": {
+          "comparison": "incorrect_tag vs baseline",
+          "language": "en",
+          "metric": "avg_semantic_similarity",
+          "baseline_mean": 0.7618026840293574,
+          "baseline_std": 0.01818867382096435,
+          "config_mean": 0.7358260963526037,
+          "config_std": 0.023847686420258127,
+          "mean_difference": -0.025976587676753704,
+          "percent_change": -3.4098839793209037,
+          "p_value": 0.055817294452290986,
+          "cohens_d": -2.3402242918941,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_bertscore_f1": {
+        "config_stats": {
+          "mean": 0.8898094325429864,
+          "std": 0.007282401247526452,
+          "sem": 0.004204496320606263,
+          "n_seeds": 3,
+          "values": [
+            0.885974686096112,
+            0.8982078865170479,
+            0.8852457250157992
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.9119059414499336,
+          "std": 0.0041556778930741355,
+          "sem": 0.0023992817502317292,
+          "n_seeds": 3,
+          "values": [
+            0.9082527428865432,
+            0.9164270284275214,
+            0.911038053035736
+          ]
+        },
+        "comparison": {
+          "comparison": "incorrect_tag vs baseline",
+          "language": "en",
+          "metric": "avg_bertscore_f1",
+          "baseline_mean": 0.9119059414499336,
+          "baseline_std": 0.0041556778930741355,
+          "config_mean": 0.8898094325429864,
+          "config_std": 0.007282401247526452,
+          "mean_difference": -0.022096508906947254,
+          "percent_change": -2.423112724960836,
+          "p_value": 0.00966374976947466,
+          "cohens_d": -5.830435325671934,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_token_f1": {
+        "config_stats": {
+          "mean": 0.4527115789457394,
+          "std": 0.04266074139514937,
+          "sem": 0.0246301905283185,
+          "n_seeds": 3,
+          "values": [
+            0.43738986817685094,
+            0.500917134855896,
+            0.419827733804471
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.5926140322467767,
+          "std": 0.01891628682372524,
+          "sem": 0.01092132328974594,
+          "n_seeds": 3,
+          "values": [
+            0.5707875355566256,
+            0.6042545624310055,
+            0.6027999987526987
+          ]
+        },
+        "comparison": {
+          "comparison": "incorrect_tag vs baseline",
+          "language": "en",
+          "metric": "avg_token_f1",
+          "baseline_mean": 0.5926140322467767,
+          "baseline_std": 0.01891628682372524,
+          "config_mean": 0.4527115789457394,
+          "config_std": 0.04266074139514937,
+          "mean_difference": -0.1399024533010373,
+          "percent_change": -23.607684882287604,
+          "p_value": 0.0264531628275427,
+          "cohens_d": -3.478954102766992,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_exact_match": {
+        "config_stats": {
+          "mean": 0.2902777777777778,
+          "std": 0.04173605333699088,
+          "sem": 0.024096321629024267,
+          "n_seeds": 3,
+          "values": [
+            0.275,
+            0.3375,
+            0.25833333333333336
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.36250000000000004,
+          "std": 0.018162078931419492,
+          "sem": 0.010485881160098276,
+          "n_seeds": 3,
+          "values": [
+            0.35,
+            0.38333333333333336,
+            0.3541666666666667
+          ]
+        },
+        "comparison": {
+          "comparison": "incorrect_tag vs baseline",
+          "language": "en",
+          "metric": "avg_exact_match",
+          "baseline_mean": 0.36250000000000004,
+          "baseline_std": 0.018162078931419492,
+          "config_mean": 0.2902777777777778,
+          "config_std": 0.04173605333699088,
+          "mean_difference": -0.07222222222222224,
+          "percent_change": -19.923371647509583,
+          "p_value": 0.03802621342853098,
+          "cohens_d": -2.875606570768521,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      }
+    },
+    "es": {
+      "avg_semantic_similarity": {
+        "config_stats": {
+          "mean": 0.6993660195730627,
+          "std": 0.011675119753436401,
+          "sem": 0.006740633532467624,
+          "n_seeds": 3,
+          "values": [
+            0.7117973292246461,
+            0.688633139214168,
+            0.6976675902803738
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.6185002277656976,
+          "std": 0.012147225438876318,
+          "sem": 0.007013203877042313,
+          "n_seeds": 3,
+          "values": [
+            0.6313966954126954,
+            0.6072753918512414,
+            0.6168285960331559
+          ]
+        },
+        "comparison": {
+          "comparison": "incorrect_tag vs baseline",
+          "language": "es",
+          "metric": "avg_semantic_similarity",
+          "baseline_mean": 0.6185002277656976,
+          "baseline_std": 0.012147225438876318,
+          "config_mean": 0.6993660195730627,
+          "config_std": 0.011675119753436401,
+          "mean_difference": 0.08086579180736508,
+          "percent_change": 13.074496690080274,
+          "p_value": 1.1701149088228481e-05,
+          "cohens_d": 168.78012526373743,
+          "n_seeds": 3,
+          "significant": "True"
+        },
+        "bonferroni_significant": true
+      },
+      "avg_bertscore_f1": {
+        "config_stats": {
+          "mean": 0.8702103034489684,
+          "std": 0.003467239767951629,
+          "sem": 0.0020018118133718486,
+          "n_seeds": 3,
+          "values": [
+            0.8740964109698931,
+            0.8691011428833008,
+            0.8674333564937114
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.8591249087618457,
+          "std": 0.001955372969830654,
+          "sem": 0.001128935110497846,
+          "n_seeds": 3,
+          "values": [
+            0.8612575421730677,
+            0.8587007676561673,
+            0.857416416456302
+          ]
+        },
+        "comparison": {
+          "comparison": "incorrect_tag vs baseline",
+          "language": "es",
+          "metric": "avg_bertscore_f1",
+          "baseline_mean": 0.8591249087618457,
+          "baseline_std": 0.001955372969830654,
+          "config_mean": 0.8702103034489684,
+          "config_std": 0.003467239767951629,
+          "mean_difference": 0.011085394687122774,
+          "percent_change": 1.2903123368985812,
+          "p_value": 0.006294890800514546,
+          "cohens_d": 7.242480457429101,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_token_f1": {
+        "config_stats": {
+          "mean": 0.35557201918772324,
+          "std": 0.016071070546963034,
+          "sem": 0.009278636906454574,
+          "n_seeds": 3,
+          "values": [
+            0.37408364079221995,
+            0.3451896171976828,
+            0.34744279957326696
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.3754595250248391,
+          "std": 0.013818213248010199,
+          "sem": 0.007977949138458342,
+          "n_seeds": 3,
+          "values": [
+            0.3903722204444948,
+            0.36308874409663106,
+            0.3729176105333913
+          ]
+        },
+        "comparison": {
+          "comparison": "incorrect_tag vs baseline",
+          "language": "es",
+          "metric": "avg_token_f1",
+          "baseline_mean": 0.3754595250248391,
+          "baseline_std": 0.013818213248010199,
+          "config_mean": 0.35557201918772324,
+          "config_std": 0.016071070546963034,
+          "mean_difference": -0.01988750583711585,
+          "percent_change": -5.296844136741546,
+          "p_value": 0.01968238286678761,
+          "cohens_d": -4.054290973995332,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_exact_match": {
+        "config_stats": {
+          "mean": 0.2263888888888889,
+          "std": 0.03127313958110473,
+          "sem": 0.018055555555555557,
+          "n_seeds": 3,
+          "values": [
+            0.2625,
+            0.20833333333333334,
+            0.20833333333333334
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.1125,
+          "std": 0.02886751345948129,
+          "sem": 0.01666666666666667,
+          "n_seeds": 3,
+          "values": [
+            0.14583333333333334,
+            0.09583333333333334,
+            0.09583333333333334
+          ]
+        },
+        "comparison": {
+          "comparison": "incorrect_tag vs baseline",
+          "language": "es",
+          "metric": "avg_exact_match",
+          "baseline_mean": 0.1125,
+          "baseline_std": 0.02886751345948129,
+          "config_mean": 0.2263888888888889,
+          "config_std": 0.03127313958110473,
+          "mean_difference": 0.11388888888888889,
+          "percent_change": 101.23456790123457,
+          "p_value": 0.0001486878307229839,
+          "cohens_d": 47.342722073549325,
+          "n_seeds": 3,
+          "significant": "True"
+        },
+        "bonferroni_significant": true
+      }
+    },
+    "th": {
+      "avg_semantic_similarity": {
+        "config_stats": {
+          "mean": 0.7248360502326654,
+          "std": 0.0044386322816025135,
+          "sem": 0.002562645542616974,
+          "n_seeds": 3,
+          "values": [
+            0.722340729739517,
+            0.7299607568110029,
+            0.7222066641474764
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.6062749688306616,
+          "std": 0.01704936913045254,
+          "sem": 0.00984345785698007,
+          "n_seeds": 3,
+          "values": [
+            0.608775897603482,
+            0.5881132654535274,
+            0.6219357434349756
+          ]
+        },
+        "comparison": {
+          "comparison": "incorrect_tag vs baseline",
+          "language": "th",
+          "metric": "avg_semantic_similarity",
+          "baseline_mean": 0.6062749688306616,
+          "baseline_std": 0.01704936913045254,
+          "config_mean": 0.7248360502326654,
+          "config_std": 0.0044386322816025135,
+          "mean_difference": 0.11856108140200383,
+          "percent_change": 19.55566162176804,
+          "p_value": 0.010523314929076752,
+          "cohens_d": 5.583599055345261,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_bertscore_f1": {
+        "config_stats": {
+          "mean": 0.9066477057006624,
+          "std": 0.0008035218360688907,
+          "sem": 0.00046391354835411644,
+          "n_seeds": 3,
+          "values": [
+            0.9059987654288609,
+            0.9075464621186257,
+            0.9063978895545006
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.8835058895250162,
+          "std": 0.0037408269775375145,
+          "sem": 0.0021597674624730984,
+          "n_seeds": 3,
+          "values": [
+            0.8851809032261372,
+            0.8792202624181906,
+            0.8861165029307206
+          ]
+        },
+        "comparison": {
+          "comparison": "incorrect_tag vs baseline",
+          "language": "th",
+          "metric": "avg_bertscore_f1",
+          "baseline_mean": 0.8835058895250162,
+          "baseline_std": 0.0037408269775375145,
+          "config_mean": 0.9066477057006624,
+          "config_std": 0.0008035218360688907,
+          "mean_difference": 0.023141816175646257,
+          "percent_change": 2.619316571628921,
+          "p_value": 0.0123588235678279,
+          "cohens_d": 5.145125823308159,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_token_f1": {
+        "config_stats": {
+          "mean": 0.4375805943353302,
+          "std": 0.013340814442758277,
+          "sem": 0.007702322809735339,
+          "n_seeds": 3,
+          "values": [
+            0.43125926461452774,
+            0.4529071098818439,
+            0.42857540850961906
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.38897807479890917,
+          "std": 0.00989096344025518,
+          "sem": 0.0057105504047760755,
+          "n_seeds": 3,
+          "values": [
+            0.39845773540948987,
+            0.37872161655550135,
+            0.3897548724317363
+          ]
+        },
+        "comparison": {
+          "comparison": "incorrect_tag vs baseline",
+          "language": "th",
+          "metric": "avg_token_f1",
+          "baseline_mean": 0.38897807479890917,
+          "baseline_std": 0.00989096344025518,
+          "config_mean": 0.4375805943353302,
+          "config_std": 0.013340814442758277,
+          "mean_difference": 0.04860251953642103,
+          "percent_change": 12.494925211799451,
+          "p_value": 0.063861422994901,
+          "cohens_d": 2.1737370008882757,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_exact_match": {
+        "config_stats": {
+          "mean": 0.25277777777777777,
+          "std": 0.01577474540500075,
+          "sem": 0.009107553505974997,
+          "n_seeds": 3,
+          "values": [
+            0.24166666666666667,
+            0.2708333333333333,
+            0.24583333333333332
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.09722222222222222,
+          "std": 0.019690898442719207,
+          "sem": 0.011368545516489517,
+          "n_seeds": 3,
+          "values": [
+            0.1125,
+            0.075,
+            0.10416666666666667
+          ]
+        },
+        "comparison": {
+          "comparison": "incorrect_tag vs baseline",
+          "language": "th",
+          "metric": "avg_exact_match",
+          "baseline_mean": 0.09722222222222222,
+          "baseline_std": 0.019690898442719207,
+          "config_mean": 0.25277777777777777,
+          "config_std": 0.01577474540500075,
+          "mean_difference": 0.15555555555555556,
+          "percent_change": 160.0,
+          "p_value": 0.01686278078718317,
+          "cohens_d": 4.389626089349876,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      }
+    },
+    "ar": {
+      "avg_semantic_similarity": {
+        "config_stats": {
+          "mean": 0.6931817735855779,
+          "std": 0.010443808441878439,
+          "sem": 0.006029735615283403,
+          "n_seeds": 3,
+          "values": [
+            0.68350647908325,
+            0.6917852695720891,
+            0.7042535721013944
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.6406816720755564,
+          "std": 0.0037548134110900484,
+          "sem": 0.0021678425336496567,
+          "n_seeds": 3,
+          "values": [
+            0.641468789242208,
+            0.6439805325741569,
+            0.6365956944103043
+          ]
+        },
+        "comparison": {
+          "comparison": "incorrect_tag vs baseline",
+          "language": "ar",
+          "metric": "avg_semantic_similarity",
+          "baseline_mean": 0.6406816720755564,
+          "baseline_std": 0.0037548134110900484,
+          "config_mean": 0.6931817735855779,
+          "config_std": 0.010443808441878439,
+          "mean_difference": 0.05250010151002149,
+          "percent_change": 8.194412888375881,
+          "p_value": 0.021154500808921964,
+          "cohens_d": 3.906260339318237,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_bertscore_f1": {
+        "config_stats": {
+          "mean": 0.867493403951327,
+          "std": 0.0021410666529494107,
+          "sem": 0.0012361454084332734,
+          "n_seeds": 3,
+          "values": [
+            0.8690680359800657,
+            0.8683567141493161,
+            0.8650554617245992
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.8729681603610514,
+          "std": 0.0023760504268870654,
+          "sem": 0.0013718133535713724,
+          "n_seeds": 3,
+          "values": [
+            0.8753655220071475,
+            0.8729249484837055,
+            0.8706140105923017
+          ]
+        },
+        "comparison": {
+          "comparison": "incorrect_tag vs baseline",
+          "language": "ar",
+          "metric": "avg_bertscore_f1",
+          "baseline_mean": 0.8729681603610514,
+          "baseline_std": 0.0023760504268870654,
+          "config_mean": 0.867493403951327,
+          "config_std": 0.0021410666529494107,
+          "mean_difference": -0.005474756409724391,
+          "percent_change": -0.6271427365071462,
+          "p_value": 0.008268775920775042,
+          "cohens_d": -6.309753308939073,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_token_f1": {
+        "config_stats": {
+          "mean": 0.402676941455333,
+          "std": 0.007045750478032906,
+          "sem": 0.004067865935135233,
+          "n_seeds": 3,
+          "values": [
+            0.397108304558864,
+            0.40032459638186757,
+            0.4105979234252676
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.40645291708781,
+          "std": 0.008030797609491212,
+          "sem": 0.0046365831616471545,
+          "n_seeds": 3,
+          "values": [
+            0.4154750209807558,
+            0.40379792043503904,
+            0.40008580984763514
+          ]
+        },
+        "comparison": {
+          "comparison": "incorrect_tag vs baseline",
+          "language": "ar",
+          "metric": "avg_token_f1",
+          "baseline_mean": 0.40645291708781,
+          "baseline_std": 0.008030797609491212,
+          "config_mean": 0.402676941455333,
+          "config_std": 0.007045750478032906,
+          "mean_difference": -0.003775975632477002,
+          "percent_change": -0.9290068969196846,
+          "p_value": 0.6950308939091673,
+          "cohens_d": -0.261461680056401,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      },
+      "avg_exact_match": {
+        "config_stats": {
+          "mean": 0.15555555555555556,
+          "std": 0.0024056261216234324,
+          "sem": 0.0013888888888888842,
+          "n_seeds": 3,
+          "values": [
+            0.15416666666666667,
+            0.15833333333333333,
+            0.15416666666666667
+          ]
+        },
+        "baseline_stats": {
+          "mean": 0.14583333333333334,
+          "std": 0.022047927592204926,
+          "sem": 0.012729376930432893,
+          "n_seeds": 3,
+          "values": [
+            0.1625,
+            0.15416666666666667,
+            0.12083333333333333
+          ]
+        },
+        "comparison": {
+          "comparison": "incorrect_tag vs baseline",
+          "language": "ar",
+          "metric": "avg_exact_match",
+          "baseline_mean": 0.14583333333333334,
+          "baseline_std": 0.022047927592204926,
+          "config_mean": 0.15555555555555556,
+          "config_std": 0.0024056261216234324,
+          "mean_difference": 0.009722222222222215,
+          "percent_change": 6.666666666666661,
+          "p_value": 0.513466367200159,
+          "cohens_d": 0.4546988617231415,
+          "n_seeds": 3,
+          "significant": "False"
+        },
+        "bonferroni_significant": false
+      }
+    }
+  }
+}

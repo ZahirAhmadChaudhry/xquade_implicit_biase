@@ -1,0 +1,95 @@
+================================================================================
+ERROR ANALYSIS REPORT
+Configuration: few_shot_2
+Language: EN
+Seed: 42
+Total Samples: 240
+================================================================================
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+semantic_similarity_to_answer      : Mean=0.9005, Std=0.1968, Min=0.1197, Max=1.0000
+bertscore_f1                       : Mean=0.9606, Std=0.0585, Min=0.7887, Max=1.0000
+token_f1                           : Mean=0.8149, Std=0.2926, Min=0.0000, Max=1.0000
+exact_match                        : Mean=0.6125, Std=0.4872, Min=0.0000, Max=1.0000
+
+ERROR CATEGORIES
+--------------------------------------------------------------------------------
+Empty Output                  :     0 (  0.0%)
+Too Short                     :   138 ( 57.5%)
+Too Long                      :     0 (  0.0%)
+Low Semantic                  :    15 (  6.2%)
+Zero Exact Match              :    93 ( 38.8%)
+Low Bertscore                 :     0 (  0.0%)
+
+FAILURE EXAMPLES
+--------------------------------------------------------------------------------
+
+Too Short:
+
+  Example 1:
+    Sample ID: 57097d63ed30961900e841fe
+    Output: Virgin Media
+...
+    Expected: Virgin Media...
+    Semantic Similarity: 1.0
+
+  Example 2:
+    Sample ID: 570d3468b3d812140066d543
+    Output: car
+...
+    Expected: major car brands...
+    Semantic Similarity: 0.652984619140625
+
+  Example 3:
+    Sample ID: 57294209af94a219006aa201
+    Output: 1999
+...
+    Expected: 1999...
+    Semantic Similarity: 1.000000238418579
+
+Low Semantic:
+
+  Example 1:
+    Sample ID: 5728e715ff5b5019007da917
+    Output: to make it more difficult for a system to function
+...
+    Expected: get their issue onto the table...
+    Semantic Similarity: 0.25558286905288696
+
+  Example 2:
+    Sample ID: 5728eef92ca10214002daab0
+    Output: no jail time
+...
+    Expected: plea bargain...
+    Semantic Similarity: 0.2057444155216217
+
+  Example 3:
+    Sample ID: 571cd3b55efbb31900334e06
+    Output: Bubbles of inert gas, mostly nitrogen and helium, forming in their blood.
+...
+    Expected: Decompression sickness...
+    Semantic Similarity: 0.2940930724143982
+
+Zero Exact Match:
+
+  Example 1:
+    Sample ID: 5725cc38ec44d21400f3d5bb
+    Output: Common rules for coal and steel, and then atomic energy
+...
+    Expected: with common rules for coal and steel...
+    Semantic Similarity: 0.8406005501747131
+
+  Example 2:
+    Sample ID: 570d3468b3d812140066d543
+    Output: car
+...
+    Expected: major car brands...
+    Semantic Similarity: 0.652984619140625
+
+  Example 3:
+    Sample ID: 56e7586d37bdd419002c3eb5
+    Output: the United States
+...
+    Expected: United States...
+    Semantic Similarity: 0.9893197417259216

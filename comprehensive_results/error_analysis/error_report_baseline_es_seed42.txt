@@ -1,0 +1,119 @@
+================================================================================
+ERROR ANALYSIS REPORT
+Configuration: baseline
+Language: ES
+Seed: 42
+Total Samples: 240
+================================================================================
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+semantic_similarity_to_answer      : Mean=0.6314, Std=0.2204, Min=0.0978, Max=1.0000
+bertscore_f1                       : Mean=0.8613, Std=0.0607, Min=0.7422, Max=1.0000
+token_f1                           : Mean=0.3904, Std=0.3064, Min=0.0000, Max=1.0000
+exact_match                        : Mean=0.1458, Std=0.3529, Min=0.0000, Max=1.0000
+
+ERROR CATEGORIES
+--------------------------------------------------------------------------------
+Empty Output                  :     0 (  0.0%)
+Too Short                     :    29 ( 12.1%)
+Too Long                      :    19 (  7.9%)
+Low Semantic                  :    66 ( 27.5%)
+Zero Exact Match              :   205 ( 85.4%)
+Low Bertscore                 :     0 (  0.0%)
+
+FAILURE EXAMPLES
+--------------------------------------------------------------------------------
+
+Too Short:
+
+  Example 1:
+    Sample ID: 57097d63ed30961900e841fe
+    Output: Virgin Media.
+...
+    Expected: Virgin Media...
+    Semantic Similarity: 0.9884350299835205
+
+  Example 2:
+    Sample ID: 56e7586d37bdd419002c3eb5
+    Output: Estados Unidos.
+...
+    Expected: Estados Unidos...
+    Semantic Similarity: 0.9892793893814087
+
+  Example 3:
+    Sample ID: 56d9c455dc89441400fdb7c6
+    Output: Marlee Matlin.
+...
+    Expected: Marlee Matlin...
+    Semantic Similarity: 0.9929670691490173
+
+Too Long:
+
+  Example 1:
+    Sample ID: 5725cc38ec44d21400f3d5bb
+    Output: Los principales tratados que conforman la Unión Europea surgieron de la siguiente manera:
+
+*   **Ini...
+    Expected: con reglas comunes para el carbón y el acero...
+    Semantic Similarity: 0.40016356110572815
+
+  Example 2:
+    Sample ID: 5728eef92ca10214002daab0
+    Output: A veces, a los desobedientes civiles se les ofrece:
+
+*   **Un acuerdo de declaración de culpabilidad...
+    Expected: acuerdo de declaración de culpabilidad...
+    Semantic Similarity: 0.5528489351272583
+
+  Example 3:
+    Sample ID: 57263c78ec44d21400f3dc7d
+    Output: El protocolo de datagramas de usuario (UDP) mide la responsabilidad de los servidores en el borde de...
+    Expected: En el sistema de llamada virtual, la red garantiza la entrega secuencial de datos al servidor...
+    Semantic Similarity: 0.5695422887802124
+
+Low Semantic:
+
+  Example 1:
+    Sample ID: 5725cc38ec44d21400f3d5bb
+    Output: Los principales tratados que conforman la Unión Europea surgieron de la siguiente manera:
+
+*   **Ini...
+    Expected: con reglas comunes para el carbón y el acero...
+    Semantic Similarity: 0.40016356110572815
+
+  Example 2:
+    Sample ID: 5728e715ff5b5019007da917
+    Output: Muchas de estas protestas tienen como objetivo **dificultar el funcionamiento del sistema para llama...
+    Expected: poner su asunto sobre la mesa...
+    Semantic Similarity: 0.3936559557914734
+
+  Example 3:
+    Sample ID: 5730a4d02461fd1900a9cf29
+    Output: Francia tomó el control de Argelia en 1830.
+...
+    Expected: 1830...
+    Semantic Similarity: 0.38318750262260437
+
+Zero Exact Match:
+
+  Example 1:
+    Sample ID: 5725cc38ec44d21400f3d5bb
+    Output: Los principales tratados que conforman la Unión Europea surgieron de la siguiente manera:
+
+*   **Ini...
+    Expected: con reglas comunes para el carbón y el acero...
+    Semantic Similarity: 0.40016356110572815
+
+  Example 2:
+    Sample ID: 570d3468b3d812140066d543
+    Output: Una planta de fabricación de automóviles.
+...
+    Expected: principales marcas de coches...
+    Semantic Similarity: 0.6275224089622498
+
+  Example 3:
+    Sample ID: 57294209af94a219006aa201
+    Output: El artículo en el que se basaba el gráfico de "reconstrucción de la temperatura del hemisferio norte...
+    Expected: 1999...
+    Semantic Similarity: 0.5984347462654114

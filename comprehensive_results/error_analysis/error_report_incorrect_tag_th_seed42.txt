@@ -1,0 +1,111 @@
+================================================================================
+ERROR ANALYSIS REPORT
+Configuration: incorrect_tag
+Language: TH
+Seed: 42
+Total Samples: 240
+================================================================================
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+semantic_similarity_to_answer      : Mean=0.7223, Std=0.2517, Min=0.0835, Max=1.0000
+bertscore_f1                       : Mean=0.9060, Std=0.0695, Min=0.7571, Max=1.0000
+token_f1                           : Mean=0.4313, Std=0.4104, Min=0.0000, Max=1.0000
+exact_match                        : Mean=0.2417, Std=0.4281, Min=0.0000, Max=1.0000
+
+ERROR CATEGORIES
+--------------------------------------------------------------------------------
+Empty Output                  :     0 (  0.0%)
+Too Short                     :   113 ( 47.1%)
+Too Long                      :     1 (  0.4%)
+Low Semantic                  :    58 ( 24.2%)
+Zero Exact Match              :   182 ( 75.8%)
+Low Bertscore                 :     0 (  0.0%)
+
+FAILURE EXAMPLES
+--------------------------------------------------------------------------------
+
+Too Short:
+
+  Example 1:
+    Sample ID: 5725cc38ec44d21400f3d5bb
+    Output: [JA]
+
+欧州連合の成立につながる重要な条約は、石炭と鉄鋼に関する共通の強制力のある規則から始まり、原子力に関する規則が続きました。しかし、完全で正式な機関は、1957年のローマ条約と1992年のマ...
+    Expected: ด้วย กฎบังคับใช้ร่วมกันว่าด้วยเรื่องถ่านหินและเหล็ก...
+    Semantic Similarity: 0.5330605506896973
+
+  Example 2:
+    Sample ID: 57097d63ed30961900e841fe
+    Output: Virgin Media
+...
+    Expected: Virgin Media...
+    Semantic Similarity: 1.0
+
+  Example 3:
+    Sample ID: 57294209af94a219006aa201
+    Output: 1999
+...
+    Expected: 1999...
+    Semantic Similarity: 1.000000238418579
+
+Too Long:
+
+  Example 1:
+    Sample ID: 5728202c4b864d19001644ec
+    Output: [lang=ja]
+
+革命的市民的不服従 (Kakumeiteki shimin no fufukujū)
+
+**Explanation:**
+
+The passage describes "revo...
+    Expected: อารยะขัดขืนแบบปฏิวัติ...
+    Semantic Similarity: 0.4825582504272461
+
+Low Semantic:
+
+  Example 1:
+    Sample ID: 56e7586d37bdd419002c3eb5
+    Output: จากข้อมูลที่ให้มา ไม่มีประเทศตะวันตกใดที่ยังอนุญาตให้มีการลงโทษทางร่างกายในโรงเรียน ยกเว้นสหรัฐอเมริ...
+    Expected: สหรัฐ...
+    Semantic Similarity: 0.3534189462661743
+
+  Example 2:
+    Sample ID: 572ff673b2c2fd1400568669
+    Output: ดินดอนสามเหลี่ยมในเนเธอร์แลนด์มีชื่อว่า ดินดอนสามเหลี่ยมไรน์-เมิส (Rijn-Maasdelta) หรือ ดินดอนสามเหล...
+    Expected: ไรน์-เมิส...
+    Semantic Similarity: 0.32869020104408264
+
+  Example 3:
+    Sample ID: 5728eef92ca10214002daab2
+    Output: [JA]
+
+Context: 一部の訴訟では、公民的不服従を行った者に対して、司法取引を持ちかけることが提案されています。例えば、カムデン28事件では、被告は懲役刑を回避するために、一つの軽犯罪を認め...
+    Expected: ความเป็นน้ำหนึ่งใจเดียวกัน...
+    Semantic Similarity: 0.280914843082428
+
+Zero Exact Match:
+
+  Example 1:
+    Sample ID: 5725cc38ec44d21400f3d5bb
+    Output: [JA]
+
+欧州連合の成立につながる重要な条約は、石炭と鉄鋼に関する共通の強制力のある規則から始まり、原子力に関する規則が続きました。しかし、完全で正式な機関は、1957年のローマ条約と1992年のマ...
+    Expected: ด้วย กฎบังคับใช้ร่วมกันว่าด้วยเรื่องถ่านหินและเหล็ก...
+    Semantic Similarity: 0.5330605506896973
+
+  Example 2:
+    Sample ID: 570d3468b3d812140066d543
+    Output: [lang=ja]
+自動車製造工場
+[/lang]
+...
+    Expected: รถยนต์ยี่ห้อดังหลายยี่ห้อ...
+    Semantic Similarity: 0.5755795240402222
+
+  Example 3:
+    Sample ID: 56e7586d37bdd419002c3eb5
+    Output: จากข้อมูลที่ให้มา ไม่มีประเทศตะวันตกใดที่ยังอนุญาตให้มีการลงโทษทางร่างกายในโรงเรียน ยกเว้นสหรัฐอเมริ...
+    Expected: สหรัฐ...
+    Semantic Similarity: 0.3534189462661743

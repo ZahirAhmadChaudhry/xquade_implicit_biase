@@ -1,0 +1,126 @@
+================================================================================
+ERROR ANALYSIS REPORT
+Configuration: incorrect_tag
+Language: EN
+Seed: 42
+Total Samples: 240
+================================================================================
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+semantic_similarity_to_answer      : Mean=0.7150, Std=0.2475, Min=0.0828, Max=1.0000
+bertscore_f1                       : Mean=0.8860, Std=0.0794, Min=0.7431, Max=1.0000
+token_f1                           : Mean=0.4374, Std=0.4115, Min=0.0000, Max=1.0000
+exact_match                        : Mean=0.2750, Std=0.4465, Min=0.0000, Max=1.0000
+
+ERROR CATEGORIES
+--------------------------------------------------------------------------------
+Empty Output                  :     0 (  0.0%)
+Too Short                     :    67 ( 27.9%)
+Too Long                      :    15 (  6.2%)
+Low Semantic                  :    56 ( 23.3%)
+Zero Exact Match              :   174 ( 72.5%)
+Low Bertscore                 :     0 (  0.0%)
+
+FAILURE EXAMPLES
+--------------------------------------------------------------------------------
+
+Too Short:
+
+  Example 1:
+    Sample ID: 57097d63ed30961900e841fe
+    Output: Virgin Media
+...
+    Expected: Virgin Media...
+    Semantic Similarity: 1.0
+
+  Example 2:
+    Sample ID: 57294209af94a219006aa201
+    Output: 1999
+...
+    Expected: 1999...
+    Semantic Similarity: 1.000000238418579
+
+  Example 3:
+    Sample ID: 56d9c455dc89441400fdb7c6
+    Output: Marlee Matlin
+...
+    Expected: Marlee Matlin...
+    Semantic Similarity: 0.9999998807907104
+
+Too Long:
+
+  Example 1:
+    Sample ID: 56e7586d37bdd419002c3eb5
+    Output: The provided context states that corporal punishment is **not** allowed in most Western countries. I...
+    Expected: United States...
+    Semantic Similarity: 0.4517899453639984
+
+  Example 2:
+    Sample ID: 57263c78ec44d21400f3dc7d
+    Output: [lang=en]
+
+Based on the provided context, the User Datagram Protocol (UDP) does *not* guarantee orde...
+    Expected: In the virtual call system, the network guarantees sequenced delivery of data to the host...
+    Semantic Similarity: 0.5659084320068359
+
+  Example 3:
+    Sample ID: 5728eef92ca10214002daab2
+    Output: [lang=fr]
+
+Contexte : Parfois, l'accusation propose un accord de plaidoyer aux personnes pratiquant ...
+    Expected: solidarity...
+    Semantic Similarity: 0.4228792190551758
+
+Low Semantic:
+
+  Example 1:
+    Sample ID: 56e7586d37bdd419002c3eb5
+    Output: The provided context states that corporal punishment is **not** allowed in most Western countries. I...
+    Expected: United States...
+    Semantic Similarity: 0.4517899453639984
+
+  Example 2:
+    Sample ID: 5728eef92ca10214002daab0
+    Output: [lang=fr]
+
+Une peine réduite, comme plaider coupable à un délit mineur sans peine de prison.
+[/lang]...
+    Expected: plea bargain...
+    Semantic Similarity: 0.3503722548484802
+
+  Example 3:
+    Sample ID: 57274beff1498d1400e8f5e4
+    Output: [lang=fr]
+
+École indépendante.
+[/lang]
+...
+    Expected: independent schools...
+    Semantic Similarity: 0.4990023672580719
+
+Zero Exact Match:
+
+  Example 1:
+    Sample ID: 5725cc38ec44d21400f3d5bb
+    Output: [lang=fr]
+
+Les principaux traités qui forment l'Union européenne ont commencé avec des règles commun...
+    Expected: with common rules for coal and steel...
+    Semantic Similarity: 0.627025842666626
+
+  Example 2:
+    Sample ID: 570d3468b3d812140066d543
+    Output: [lang=fr]
+
+Usine de fabrication automobile.
+[/lang]
+...
+    Expected: major car brands...
+    Semantic Similarity: 0.585538923740387
+
+  Example 3:
+    Sample ID: 56e7586d37bdd419002c3eb5
+    Output: The provided context states that corporal punishment is **not** allowed in most Western countries. I...
+    Expected: United States...
+    Semantic Similarity: 0.4517899453639984

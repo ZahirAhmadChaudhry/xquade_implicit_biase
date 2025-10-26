@@ -1,0 +1,67 @@
+[
+  {
+    "sample_id": "5725cc38ec44d21400f3d5bb",
+    "prompt": "Context: The principal Treaties that form the European Union began with common rules for coal and steel, and then atomic energy, but more complete and formal institutions were established through the Treaty of Rome 1957 and the Maastricht Treaty 1992 (now: TFEU). Minor amendments were made during the 1960s and 1970s. Major amending treaties were signed to complete the development of a single, internal market in the Single European Act 1986, to further the development of a more social Europe in the Treaty of Amsterdam 1997, and to make minor amendments to the relative power of member states in the EU institutions in the Treaty of Nice 2001 and the Treaty of Lisbon 2007. Since its establishment, more member states have joined through a series of accession treaties, from the UK, Ireland, Denmark and Norway in 1972 (though Norway did not end up joining), Greece in 1979, Spain and Portugal 1985, Austria, Finland, Norway and Sweden in 1994 (though again Norway failed to join, because of lack of support in the referendum), the Czech Republic, Cyprus, Estonia, Hungary, Latvia, Lithuania, Malta, Poland, Slovakia and Slovenia in 2004, Romania and Bulgaria in 2007 and Croatia in 2013. Greenland signed a Treaty in 1985 giving it a special status.\n\nQuestion: How did the principle treaties that form the European Union begin?\n\nAnswer:",
+    "output": "The principal treaties that form the European Union began with common rules for coal and steel, and then atomic energy.\n",
+    "expected_answers": [
+      "with common rules for coal and steel"
+    ],
+    "semantic_similarity_to_answer": 0.6361855268478394,
+    "exact_match": 0.0,
+    "token_f1": 0.5185185185185185,
+    "rouge_l": 0.5185185185185185,
+    "bertscore_f1": 0.9020189642906189
+  },
+  {
+    "sample_id": "57097d63ed30961900e841fe",
+    "prompt": "Context: The agreements include fixed annual carriage fees of £30m for the channels with both channel suppliers able to secure additional capped payments if their channels meet certain performance-related targets. Currently there is no indication as to whether the new deal includes the additional Video On Demand and High Definition content which had previously been offered by BSkyB. As part of the agreements, both BSkyB and Virgin Media agreed to terminate all High Court proceedings against each other relating to the carriage of their respective basic channels.\n\nQuestion: What company agreed to terminate high court proceedings with BSkyB?\n\nAnswer:",
+    "output": "Virgin Media\n",
+    "expected_answers": [
+      "Virgin Media"
+    ],
+    "semantic_similarity_to_answer": 1.0,
+    "exact_match": 1.0,
+    "token_f1": 1.0,
+    "rouge_l": 1.0,
+    "bertscore_f1": 1.0
+  },
+  {
+    "sample_id": "570d3468b3d812140066d543",
+    "prompt": "Context: Historically, Victoria has been the base for the manufacturing plants of the major car brands Ford, Toyota and Holden; however, closure announcements by all three companies in the 21st century will mean that Australia will no longer be a base for the global car industry, with Toyota's statement in February 2014 outlining a closure year of 2017. Holden's announcement occurred in May 2013, followed by Ford's decision in December of the same year (Ford's Victorian plants—in Broadmeadows and Geelong—will close in October 2016).\n\nQuestion: What type of manufacturing plant is Victoria soon losing?\n\nAnswer:",
+    "output": "Manufacturing plants of major car brands.\n",
+    "expected_answers": [
+      "major car brands"
+    ],
+    "semantic_similarity_to_answer": 0.7755447626113892,
+    "exact_match": 0.0,
+    "token_f1": 0.6666666666666666,
+    "rouge_l": 0.6666666666666666,
+    "bertscore_f1": 0.9283151030540466
+  },
+  {
+    "sample_id": "56e7586d37bdd419002c3eb5",
+    "prompt": "Context: In past times, corporal punishment (spanking or paddling or caning or strapping or birching the student in order to cause physical pain) was one of the most common forms of school discipline throughout much of the world. Most Western countries, and some others, have now banned it, but it remains lawful in the United States following a US Supreme Court decision in 1977 which held that paddling did not violate the US Constitution.\n\nQuestion: What Western country is corporal punishment still allowed?\n\nAnswer:",
+    "output": "The context states that most Western countries have banned corporal punishment. The United States is mentioned as an exception, but it is not a Western country. Therefore, based on the information provided, it is not possible to determine which Western country still allows corporal punishment.\n",
+    "expected_answers": [
+      "United States"
+    ],
+    "semantic_similarity_to_answer": 0.42490535974502563,
+    "exact_match": 0.0,
+    "token_f1": 0.0851063829787234,
+    "rouge_l": 0.0851063829787234,
+    "bertscore_f1": 0.8202017545700073
+  },
+  {
+    "sample_id": "57294209af94a219006aa201",
+    "prompt": "Context: The third assessment report (TAR) prominently featured a graph labeled \"Millennial Northern Hemisphere temperature reconstruction\" based on a 1999 paper by Michael E. Mann, Raymond S. Bradley and Malcolm K. Hughes (MBH99), which has been referred to as the \"hockey stick graph\". This graph extended the similar graph in Figure 3.20 from the IPCC Second Assessment Report of 1995, and differed from a schematic in the first assessment report that lacked temperature units, but appeared to depict larger global temperature variations over the past 1000 years, and higher temperatures during the Medieval Warm Period than the mid 20th century. The schematic was not an actual plot of data, and was based on a diagram of temperatures in central England, with temperatures increased on the basis of documentary evidence of Medieval vineyards in England. Even with this increase, the maximum it showed for the Medieval Warm Period did not reach temperatures recorded in central England in 2007. The MBH99 finding was supported by cited reconstructions by Jones et al. 1998, Pollack, Huang & Shen 1998, Crowley & Lowery 2000 and Briffa 2000, using differing data and methods. The Jones et al. and Briffa reconstructions were overlaid with the MBH99 reconstruction in Figure 2.21 of the IPCC report.\n\nQuestion: When was the paper published that the \"Millennial Northern Hemisphere temperature reconstruction\" graph was based on?\n\nAnswer:",
+    "output": "1999\n",
+    "expected_answers": [
+      "1999"
+    ],
+    "semantic_similarity_to_answer": 1.000000238418579,
+    "exact_match": 1.0,
+    "token_f1": 1.0,
+    "rouge_l": 1.0,
+    "bertscore_f1": 1.000000238418579
+  }
+]

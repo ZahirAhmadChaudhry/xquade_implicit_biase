@@ -1,0 +1,112 @@
+================================================================================
+ERROR ANALYSIS REPORT
+Configuration: bracket_prefix
+Language: EN
+Seed: 42
+Total Samples: 240
+================================================================================
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+semantic_similarity_to_answer      : Mean=0.7556, Std=0.2527, Min=0.0777, Max=1.0000
+bertscore_f1                       : Mean=0.9127, Std=0.0723, Min=0.7649, Max=1.0000
+token_f1                           : Mean=0.5859, Std=0.3749, Min=0.0000, Max=1.0000
+exact_match                        : Mean=0.3792, Std=0.4852, Min=0.0000, Max=1.0000
+
+ERROR CATEGORIES
+--------------------------------------------------------------------------------
+Empty Output                  :     0 (  0.0%)
+Too Short                     :    88 ( 36.7%)
+Too Long                      :    11 (  4.6%)
+Low Semantic                  :    42 ( 17.5%)
+Zero Exact Match              :   149 ( 62.1%)
+Low Bertscore                 :     0 (  0.0%)
+
+FAILURE EXAMPLES
+--------------------------------------------------------------------------------
+
+Too Short:
+
+  Example 1:
+    Sample ID: 57097d63ed30961900e841fe
+    Output: Virgin Media
+...
+    Expected: Virgin Media...
+    Semantic Similarity: 1.0
+
+  Example 2:
+    Sample ID: 57294209af94a219006aa201
+    Output: 1999
+...
+    Expected: 1999...
+    Semantic Similarity: 1.000000238418579
+
+  Example 3:
+    Sample ID: 56d9c455dc89441400fdb7c6
+    Output: Marlee Matlin
+...
+    Expected: Marlee Matlin...
+    Semantic Similarity: 0.9999998807907104
+
+Too Long:
+
+  Example 1:
+    Sample ID: 56e7586d37bdd419002c3eb5
+    Output: The provided context states that corporal punishment remains lawful in the United States. While the ...
+    Expected: United States...
+    Semantic Similarity: 0.4688258767127991
+
+  Example 2:
+    Sample ID: 5726da89dd62a815002e92b2
+    Output: In the UK, a Pharmacy Technician is overseen by:
+
+*   **Senior Pharmacy Technicians:** Often directl...
+    Expected: other senior pharmacy technicians...
+    Semantic Similarity: 0.6375299096107483
+
+  Example 3:
+    Sample ID: 56bf36b93aeaaa14008c9565
+    Output: Based on the context, the answer is **Manning**. The passage specifically mentions that Manning "did...
+    Expected: Manning...
+    Semantic Similarity: 0.5257797241210938
+
+Low Semantic:
+
+  Example 1:
+    Sample ID: 56e7586d37bdd419002c3eb5
+    Output: The provided context states that corporal punishment remains lawful in the United States. While the ...
+    Expected: United States...
+    Semantic Similarity: 0.4688258767127991
+
+  Example 2:
+    Sample ID: 5728e715ff5b5019007da917
+    Output: Many of these protests aim to disrupt the normal functioning of a system or institution in order to ...
+    Expected: get their issue onto the table...
+    Semantic Similarity: 0.34923744201660156
+
+  Example 3:
+    Sample ID: 572fffb404bcaa1900d76ff3
+    Output: According to the text, Europe was fully forested by 9000 BP. The text also implies that the recovery...
+    Expected: 9000 BP...
+    Semantic Similarity: 0.3158853352069855
+
+Zero Exact Match:
+
+  Example 1:
+    Sample ID: 5725cc38ec44d21400f3d5bb
+    Output: The principal treaties that form the European Union began with common rules for coal and steel, and ...
+    Expected: with common rules for coal and steel...
+    Semantic Similarity: 0.6361855268478394
+
+  Example 2:
+    Sample ID: 570d3468b3d812140066d543
+    Output: Car manufacturing plants.
+...
+    Expected: major car brands...
+    Semantic Similarity: 0.6096586585044861
+
+  Example 3:
+    Sample ID: 56e7586d37bdd419002c3eb5
+    Output: The provided context states that corporal punishment remains lawful in the United States. While the ...
+    Expected: United States...
+    Semantic Similarity: 0.4688258767127991

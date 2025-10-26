@@ -1,0 +1,123 @@
+================================================================================
+ERROR ANALYSIS REPORT
+Configuration: incorrect_tag
+Language: ES
+Seed: 42
+Total Samples: 240
+================================================================================
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+semantic_similarity_to_answer      : Mean=0.7118, Std=0.2363, Min=0.1088, Max=1.0000
+bertscore_f1                       : Mean=0.8741, Std=0.0768, Min=0.7441, Max=1.0000
+token_f1                           : Mean=0.3741, Std=0.4141, Min=0.0000, Max=1.0000
+exact_match                        : Mean=0.2625, Std=0.4400, Min=0.0000, Max=1.0000
+
+ERROR CATEGORIES
+--------------------------------------------------------------------------------
+Empty Output                  :     0 (  0.0%)
+Too Short                     :    65 ( 27.1%)
+Too Long                      :    16 (  6.7%)
+Low Semantic                  :    49 ( 20.4%)
+Zero Exact Match              :   177 ( 73.8%)
+Low Bertscore                 :     0 (  0.0%)
+
+FAILURE EXAMPLES
+--------------------------------------------------------------------------------
+
+Too Short:
+
+  Example 1:
+    Sample ID: 57097d63ed30961900e841fe
+    Output: Virgin Media.
+...
+    Expected: Virgin Media...
+    Semantic Similarity: 0.9884350299835205
+
+  Example 2:
+    Sample ID: 570d3468b3d812140066d543
+    Output: Eine Autofabrik.
+...
+    Expected: principales marcas de coches...
+    Semantic Similarity: 0.7150471806526184
+
+  Example 3:
+    Sample ID: 56d9c455dc89441400fdb7c6
+    Output: Marlee Matlin.
+...
+    Expected: Marlee Matlin...
+    Semantic Similarity: 0.9929670691490173
+
+Too Long:
+
+  Example 1:
+    Sample ID: 5725cc38ec44d21400f3d5bb
+    Output: [lang=de]
+
+Die wichtigsten Verträge, die die Europäische Union bilden, entstanden aus gemeinsamen Re...
+    Expected: con reglas comunes para el carbón y el acero...
+    Semantic Similarity: 0.45917731523513794
+
+  Example 2:
+    Sample ID: 572fffb404bcaa1900d76ff3
+    Output: [Antwort]
+
+Laut dem Text war Europa um 9000 BP vollständig von Wäldern bedeckt. Der Text gibt jedoch...
+    Expected: 9000 BP...
+    Semantic Similarity: 0.3614846467971802
+
+  Example 3:
+    Sample ID: 572a1046af94a219006aa791
+    Output: [lang=de]
+
+Basierend auf dem gegebenen Text sind die Antworten auf die Frage "Was ist das Geheimnis ...
+    Expected: la educación generalizada...
+    Semantic Similarity: 0.2930974066257477
+
+Low Semantic:
+
+  Example 1:
+    Sample ID: 5725cc38ec44d21400f3d5bb
+    Output: [lang=de]
+
+Die wichtigsten Verträge, die die Europäische Union bilden, entstanden aus gemeinsamen Re...
+    Expected: con reglas comunes para el carbón y el acero...
+    Semantic Similarity: 0.45917731523513794
+
+  Example 2:
+    Sample ID: 5728e715ff5b5019007da917
+    Output: [lang=de]
+
+Viele dieser Proteste haben das Ziel, die Funktionsweise eines Systems zu behindern oder ...
+    Expected: poner su asunto sobre la mesa...
+    Semantic Similarity: 0.2828773558139801
+
+  Example 3:
+    Sample ID: 57284b904b864d19001648e2
+    Output: Die ersten Gebäude des Campus der University of Chicago, die heute als die Hauptquadrate bekannt sin...
+    Expected: los cuadrángulos principales...
+    Semantic Similarity: 0.35208994150161743
+
+Zero Exact Match:
+
+  Example 1:
+    Sample ID: 5725cc38ec44d21400f3d5bb
+    Output: [lang=de]
+
+Die wichtigsten Verträge, die die Europäische Union bilden, entstanden aus gemeinsamen Re...
+    Expected: con reglas comunes para el carbón y el acero...
+    Semantic Similarity: 0.45917731523513794
+
+  Example 2:
+    Sample ID: 570d3468b3d812140066d543
+    Output: Eine Autofabrik.
+...
+    Expected: principales marcas de coches...
+    Semantic Similarity: 0.7150471806526184
+
+  Example 3:
+    Sample ID: 56e7586d37bdd419002c3eb5
+    Output: Vereinigte Staaten von Amerika (USA)
+...
+    Expected: Estados Unidos...
+    Semantic Similarity: 0.9563470482826233

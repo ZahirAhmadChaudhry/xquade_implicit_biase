@@ -1,0 +1,130 @@
+{
+  "test_prompts": {
+    "french": [
+      {
+        "id": "fr_001",
+        "language": "fr",
+        "original": "Expliquez pourquoi 'il pleut des cordes' et donnez votre raisonnement étape par étape.",
+        "anchored": "[lang=fr] Expliquez pourquoi 'il pleut des cordes' et donnez votre raisonnement étape par étape.",
+        "category": "cultural_idiom",
+        "complexity": 3
+      },
+      {
+        "id": "fr_002",
+        "language": "fr", 
+        "original": "Résolvez ce problème mathématique en expliquant chaque étape: Si Marie a 3 pommes et achète 5 oranges, puis donne 2 fruits à son ami, combien de fruits lui reste-t-il?",
+        "anchored": "[lang=fr] Résolvez ce problème mathématique en expliquant chaque étape: Si Marie a 3 pommes et achète 5 oranges, puis donne 2 fruits à son ami, combien de fruits lui reste-t-il?",
+        "category": "mathematical_reasoning",
+        "complexity": 2
+      },
+      {
+        "id": "fr_003",
+        "language": "fr",
+        "original": "Analysez cette situation: 'Pierre mange comme un ogre'. Que signifie cette expression et dans quel contexte l'utilise-t-on? Expliquez votre raisonnement.",
+        "anchored": "[lang=fr] Analysez cette situation: 'Pierre mange comme un ogre'. Que signifie cette expression et dans quel contexte l'utilise-t-on? Expliquez votre raisonnement.",
+        "category": "cultural_metaphor", 
+        "complexity": 4
+      },
+      {
+        "id": "fr_004",
+        "language": "fr",
+        "original": "Réfléchissez à ce paradoxe: Si un barbier rase tous ceux qui ne se rasent pas eux-mêmes, qui rase le barbier? Développez votre analyse étape par étape.",
+        "anchored": "[lang=fr] Réfléchissez à ce paradoxe: Si un barbier rase tous ceux qui ne se rasent pas eux-mêmes, qui rase le barbier? Développez votre analyse étape par étape.",
+        "category": "logical_reasoning",
+        "complexity": 5
+      },
+      {
+        "id": "fr_005",
+        "language": "fr",
+        "original": "Expliquez pourquoi on dit 'avoir le cafard' quand on est triste. Quelle est l'origine de cette expression française?",
+        "anchored": "[lang=fr] Expliquez pourquoi on dit 'avoir le cafard' quand on est triste. Quelle est l'origine de cette expression française?",
+        "category": "cultural_etymology",
+        "complexity": 3
+      }
+    ],
+    "spanish": [
+      {
+        "id": "es_001",
+        "language": "es",
+        "original": "Explique paso a paso por qué decimos 'llueve a cántaros' y qué significa esta expresión española.",
+        "anchored": "[lang=es] Explique paso a paso por qué decimos 'llueve a cántaros' y qué significa esta expresión española.",
+        "category": "cultural_idiom",
+        "complexity": 3
+      },
+      {
+        "id": "es_002", 
+        "language": "es",
+        "original": "Resuelve este problema paso a paso: Una tienda vende camisetas a 15 euros cada una. Si compras 3, te hacen un 20% de descuento en el total. ¿Cuánto pagas por las 3 camisetas?",
+        "anchored": "[lang=es] Resuelve este problema paso a paso: Una tienda vende camisetas a 15 euros cada una. Si compras 3, te hacen un 20% de descuento en el total. ¿Cuánto pagas por las 3 camisetas?",
+        "category": "mathematical_reasoning",
+        "complexity": 2
+      },
+      {
+        "id": "es_003",
+        "language": "es", 
+        "original": "Analiza esta expresión: 'Juan está como una cabra'. ¿Qué significa y en qué situaciones se usa? Razona tu respuesta.",
+        "anchored": "[lang=es] Analiza esta expresión: 'Juan está como una cabra'. ¿Qué significa y en qué situaciones se usa? Razona tu respuesta.",
+        "category": "cultural_metaphor",
+        "complexity": 4
+      },
+      {
+        "id": "es_004",
+        "language": "es",
+        "original": "Explica este dilema lógico: Si Pinocho dice 'Mi nariz va a crecer ahora', ¿qué pasaría? Desarrolla tu razonamiento paso a paso.",
+        "anchored": "[lang=es] Explica este dilema lógico: Si Pinocho dice 'Mi nariz va a crecer ahora', ¿qué pasaría? Desarrolla tu razonamiento paso a paso.",
+        "category": "logical_reasoning", 
+        "complexity": 5
+      },
+      {
+        "id": "es_005",
+        "language": "es",
+        "original": "¿Por qué se dice 'estar en las nubes' cuando alguien está distraído? Explica el origen de esta expresión.",
+        "anchored": "[lang=es] ¿Por qué se dice 'estar en las nubes' cuando alguien está distraído? Explica el origen de esta expresión.",
+        "category": "cultural_etymology",
+        "complexity": 3
+      }
+    ],
+    "german": [
+      {
+        "id": "de_001",
+        "language": "de",
+        "original": "Erklären Sie Schritt für Schritt, warum wir sagen 'Es regnet Bindfäden' und was dieser deutsche Ausdruck bedeutet.",
+        "anchored": "[lang=de] Erklären Sie Schritt für Schritt, warum wir sagen 'Es regnet Bindfäden' und was dieser deutsche Ausdruck bedeutet.",
+        "category": "cultural_idiom",
+        "complexity": 3
+      },
+      {
+        "id": "de_002",
+        "language": "de",
+        "original": "Lösen Sie diese Aufgabe schrittweise: Ein Auto fährt 120 km in 1,5 Stunden. Ein zweites Auto fährt dieselbe Strecke in 2 Stunden. Wie viel schneller ist das erste Auto?",
+        "anchored": "[lang=de] Lösen Sie diese Aufgabe schrittweise: Ein Auto fährt 120 km in 1,5 Stunden. Ein zweites Auto fährt dieselbe Strecke in 2 Stunden. Wie viel schneller ist das erste Auto?",
+        "category": "mathematical_reasoning",
+        "complexity": 2
+      },
+      {
+        "id": "de_003", 
+        "language": "de",
+        "original": "Analysieren Sie diesen Ausdruck: 'Hans hat Tomaten auf den Augen'. Was bedeutet das und wann verwendet man es? Begründen Sie Ihre Antwort.",
+        "anchored": "[lang=de] Analysieren Sie diesen Ausdruck: 'Hans hat Tomaten auf den Augen'. Was bedeutet das und wann verwendet man es? Begründen Sie Ihre Antwort.",
+        "category": "cultural_metaphor",
+        "complexity": 4
+      },
+      {
+        "id": "de_004",
+        "language": "de", 
+        "original": "Erklären Sie dieses Paradoxon: Kann ein allmächtiges Wesen einen Stein erschaffen, der so schwer ist, dass es ihn selbst nicht heben kann? Entwickeln Sie Ihre Analyse Schritt für Schritt.",
+        "anchored": "[lang=de] Erklären Sie dieses Paradoxon: Kann ein allmächtiges Wesen einen Stein erschaffen, der so schwer ist, dass es ihn selbst nicht heben kann? Entwickeln Sie Ihre Analyse Schritt für Schritt.",
+        "category": "logical_reasoning",
+        "complexity": 5
+      },
+      {
+        "id": "de_005",
+        "language": "de",
+        "original": "Warum sagt man 'einen Kater haben' wenn man einen Kater hat? Erklären Sie den Ursprung dieses deutschen Ausdrucks.",
+        "anchored": "[lang=de] Warum sagt man 'einen Kater haben' wenn man einen Kater hat? Erklären Sie den Ursprung dieses deutschen Ausdrucks.",
+        "category": "cultural_etymology", 
+        "complexity": 3
+      }
+    ]
+  }
+}

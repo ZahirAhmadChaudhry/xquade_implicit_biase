@@ -1,0 +1,124 @@
+================================================================================
+ERROR ANALYSIS REPORT
+Configuration: bracket_prefix
+Language: ES
+Seed: 42
+Total Samples: 240
+================================================================================
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+semantic_similarity_to_answer      : Mean=0.6997, Std=0.2363, Min=0.1174, Max=1.0000
+bertscore_f1                       : Mean=0.8828, Std=0.0688, Min=0.7445, Max=1.0000
+token_f1                           : Mean=0.4875, Std=0.3582, Min=0.0000, Max=1.0000
+exact_match                        : Mean=0.2500, Std=0.4330, Min=0.0000, Max=1.0000
+
+ERROR CATEGORIES
+--------------------------------------------------------------------------------
+Empty Output                  :     0 (  0.0%)
+Too Short                     :    55 ( 22.9%)
+Too Long                      :    21 (  8.8%)
+Low Semantic                  :    51 ( 21.2%)
+Zero Exact Match              :   180 ( 75.0%)
+Low Bertscore                 :     0 (  0.0%)
+
+FAILURE EXAMPLES
+--------------------------------------------------------------------------------
+
+Too Short:
+
+  Example 1:
+    Sample ID: 56e7586d37bdd419002c3eb5
+    Output: Estados Unidos.
+...
+    Expected: Estados Unidos...
+    Semantic Similarity: 0.9892793893814087
+
+  Example 2:
+    Sample ID: 56d9c455dc89441400fdb7c6
+    Output: Marlee Matlin.
+...
+    Expected: Marlee Matlin...
+    Semantic Similarity: 0.9929670691490173
+
+  Example 3:
+    Sample ID: 572a04d51d046914007796cf
+    Output: Melatonina.
+...
+    Expected: melatonina...
+    Semantic Similarity: 0.8983151912689209
+
+Too Long:
+
+  Example 1:
+    Sample ID: 5725cc38ec44d21400f3d5bb
+    Output: Los principales tratados que conforman la Unión Europea surgieron a partir de:
+
+*   **Reglas comunes...
+    Expected: con reglas comunes para el carbón y el acero...
+    Semantic Similarity: 0.41670432686805725
+
+  Example 2:
+    Sample ID: 5728e715ff5b5019007da917
+    Output: [lang=es]
+
+Muchas de estas protestas tienen como objetivo **interrumpir el funcionamiento normal del...
+    Expected: poner su asunto sobre la mesa...
+    Semantic Similarity: 0.3555907607078552
+
+  Example 3:
+    Sample ID: 57274beff1498d1400e8f5e4
+    Output: [lang=es]
+
+El término para una escuela privada india, en el contexto del texto, es **escuela indepen...
+    Expected: escuelas independientes...
+    Semantic Similarity: 0.6343178749084473
+
+Low Semantic:
+
+  Example 1:
+    Sample ID: 5725cc38ec44d21400f3d5bb
+    Output: Los principales tratados que conforman la Unión Europea surgieron a partir de:
+
+*   **Reglas comunes...
+    Expected: con reglas comunes para el carbón y el acero...
+    Semantic Similarity: 0.41670432686805725
+
+  Example 2:
+    Sample ID: 5728e715ff5b5019007da917
+    Output: [lang=es]
+
+Muchas de estas protestas tienen como objetivo **interrumpir el funcionamiento normal del...
+    Expected: poner su asunto sobre la mesa...
+    Semantic Similarity: 0.3555907607078552
+
+  Example 3:
+    Sample ID: 5730a4d02461fd1900a9cf29
+    Output: Francia tomó el control de Argelia en 1830.
+...
+    Expected: 1830...
+    Semantic Similarity: 0.38318750262260437
+
+Zero Exact Match:
+
+  Example 1:
+    Sample ID: 5725cc38ec44d21400f3d5bb
+    Output: Los principales tratados que conforman la Unión Europea surgieron a partir de:
+
+*   **Reglas comunes...
+    Expected: con reglas comunes para el carbón y el acero...
+    Semantic Similarity: 0.41670432686805725
+
+  Example 2:
+    Sample ID: 57097d63ed30961900e841fe
+    Output: Virgin Media acordó poner fin a las actuaciones judiciales contra BSkyB ante el tribunal superior.
+...
+    Expected: Virgin Media...
+    Semantic Similarity: 0.5398063659667969
+
+  Example 3:
+    Sample ID: 570d3468b3d812140066d543
+    Output: Planta de fabricación de coches.
+...
+    Expected: principales marcas de coches...
+    Semantic Similarity: 0.7123016119003296

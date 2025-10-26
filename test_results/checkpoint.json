@@ -1,0 +1,86 @@
+{
+  "baseline": {
+    "en": {
+      "seed_42": {
+        "config_name": "baseline",
+        "config_description": "No-Tag_0-shot",
+        "language": "en",
+        "seed": 42,
+        "num_samples": 5,
+        "avg_semantic_similarity": 0.7673271775245667,
+        "std_semantic_similarity": 0.2203595961708019,
+        "avg_bertscore_f1": 0.9301072120666504,
+        "std_bertscore_f1": 0.06729250752218227,
+        "avg_exact_match": 0.4,
+        "std_exact_match": 0.48989794855663565,
+        "avg_token_f1": 0.6540583136327818,
+        "std_token_f1": 0.3410535461636526,
+        "avg_rouge_l": 0.6540583136327818,
+        "std_rouge_l": 0.3410535461636526
+      }
+    }
+  },
+  "bracket_prefix": {
+    "en": {
+      "seed_42": {
+        "config_name": "bracket_prefix",
+        "config_description": "bracket-prefix_0-shot",
+        "language": "en",
+        "seed": 42,
+        "num_samples": 5,
+        "avg_semantic_similarity": 0.7434559345245362,
+        "std_semantic_similarity": 0.21681039747140674,
+        "avg_bertscore_f1": 0.9231748461723328,
+        "std_bertscore_f1": 0.0699604107876599,
+        "avg_exact_match": 0.4,
+        "std_exact_match": 0.48989794855663565,
+        "avg_token_f1": 0.5866969009826153,
+        "std_token_f1": 0.36484796479918624,
+        "avg_rouge_l": 0.5866969009826153,
+        "std_rouge_l": 0.36484796479918624
+      }
+    }
+  },
+  "few_shot_2": {
+    "en": {
+      "seed_42": {
+        "config_name": "few_shot_2",
+        "config_description": "bracket-prefix_2-shot",
+        "language": "en",
+        "seed": 42,
+        "num_samples": 5,
+        "avg_semantic_similarity": 0.8987170338630677,
+        "std_semantic_similarity": 0.13750393667835112,
+        "avg_bertscore_f1": 0.9521902918815612,
+        "std_bertscore_f1": 0.0676814962694164,
+        "avg_exact_match": 0.6,
+        "std_exact_match": 0.48989794855663565,
+        "avg_token_f1": 0.8411764705882353,
+        "std_token_f1": 0.20512465616661993,
+        "avg_rouge_l": 0.8411764705882353,
+        "std_rouge_l": 0.20512465616661993
+      }
+    }
+  },
+  "incorrect_tag": {
+    "en": {
+      "seed_42": {
+        "config_name": "incorrect_tag",
+        "config_description": "Wrong-Tag_0-shot",
+        "language": "en",
+        "seed": 42,
+        "num_samples": 5,
+        "avg_semantic_similarity": 0.761564564704895,
+        "std_semantic_similarity": 0.19490639167126786,
+        "avg_bertscore_f1": 0.8942207574844361,
+        "std_bertscore_f1": 0.08754418900201635,
+        "avg_exact_match": 0.4,
+        "std_exact_match": 0.48989794855663565,
+        "avg_token_f1": 0.4074766355140187,
+        "std_token_f1": 0.4839858385358222,
+        "avg_rouge_l": 0.4074766355140187,
+        "std_rouge_l": 0.4839858385358222
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+ERROR RATE COMPARISON ACROSS CONFIGURATIONS
+====================================================================================================
+Seed: 42
+
+
+Language: EN
+----------------------------------------------------------------------------------------------------
+Category                 baseline         bracket_prefix   few_shot_2       incorrect_tag    
+----------------------------------------------------------------------------------------------------
+Empty Output             0                0                0                0                
+Low Bertscore            0                0                0                0                
+Low Semantic             45               42               15               56               
+Too Long                 10               11               0                15               
+Too Short                76               88               138              67               
+Zero Exact Match         156              149              93               174              
+
+Language: ES
+----------------------------------------------------------------------------------------------------
+Category                 baseline         bracket_prefix   few_shot_2       incorrect_tag    
+----------------------------------------------------------------------------------------------------
+Empty Output             0                0                0                0                
+Low Bertscore            0                0                0                0                
+Low Semantic             66               51               16               49               
+Too Long                 19               21               0                16               
+Too Short                29               55               111              65               
+Zero Exact Match         205              180              122              177              
+
+Language: TH
+----------------------------------------------------------------------------------------------------
+Category                 baseline         bracket_prefix   few_shot_2       incorrect_tag    
+----------------------------------------------------------------------------------------------------
+Empty Output             0                0                0                0                
+Low Bertscore            0                0                0                0                
+Low Semantic             89               57               19               58               
+Too Long                 0                1                0                1                
+Too Short                73               89               196              113              
+Zero Exact Match         213              189              84               182              
+
+Language: AR
+----------------------------------------------------------------------------------------------------
+Category                 baseline         bracket_prefix   few_shot_2       incorrect_tag    
+----------------------------------------------------------------------------------------------------
+Empty Output             0                0                0                0                
+Low Bertscore            0                0                0                0                
+Low Semantic             71               57               17               56               
+Too Long                 11               10               0                6                
+Too Short                40               65               124              51               
+Zero Exact Match         201              175              114              203              

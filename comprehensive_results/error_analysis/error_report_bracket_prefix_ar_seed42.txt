@@ -1,0 +1,123 @@
+================================================================================
+ERROR ANALYSIS REPORT
+Configuration: bracket_prefix
+Language: AR
+Seed: 42
+Total Samples: 240
+================================================================================
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+semantic_similarity_to_answer      : Mean=0.7053, Std=0.2449, Min=0.1317, Max=1.0000
+bertscore_f1                       : Mean=0.8832, Std=0.0633, Min=0.7347, Max=1.0000
+token_f1                           : Mean=0.4976, Std=0.3683, Min=0.0000, Max=1.0000
+exact_match                        : Mean=0.2708, Std=0.4444, Min=0.0000, Max=1.0000
+
+ERROR CATEGORIES
+--------------------------------------------------------------------------------
+Empty Output                  :     0 (  0.0%)
+Too Short                     :    65 ( 27.1%)
+Too Long                      :    10 (  4.2%)
+Low Semantic                  :    57 ( 23.8%)
+Zero Exact Match              :   175 ( 72.9%)
+Low Bertscore                 :     0 (  0.0%)
+
+FAILURE EXAMPLES
+--------------------------------------------------------------------------------
+
+Too Short:
+
+  Example 1:
+    Sample ID: 57097d63ed30961900e841fe
+    Output: فيرجين ميديا.
+...
+    Expected: فيرجين ميديا...
+    Semantic Similarity: 0.9827133417129517
+
+  Example 2:
+    Sample ID: 570d3468b3d812140066d543
+    Output: صناعة السيارات.
+...
+    Expected: أكثر ماركات السيارات رواجا...
+    Semantic Similarity: 0.7689318656921387
+
+  Example 3:
+    Sample ID: 56d9c455dc89441400fdb7c6
+    Output: مارلي ماتلين.
+...
+    Expected: مارلي ماتلين...
+    Semantic Similarity: 0.9933830499649048
+
+Too Long:
+
+  Example 1:
+    Sample ID: 5726241189a1e219009ac2e0
+    Output: المشكلة في وجود آثار تضخمية وانكماشية في نفس الوقت هي أنها تخلق حالة من عدم الاستقرار الاقتصادي والا...
+    Expected: تمثلت مشاكل الاقتصاد الكلي...
+    Semantic Similarity: 0.6389694213867188
+
+  Example 2:
+    Sample ID: 56e0bb9f7aa994140058e6cf
+    Output: [lang=ar]
+
+اشتهر تسلا بالإضافة إلى إنجازاته العلمية بـ:
+
+*   **استعراضيته:** كان تسلا شخصية استعراضي...
+    Expected: استعراضيته...
+    Semantic Similarity: 0.4727805554866791
+
+  Example 3:
+    Sample ID: 57111713a58dae1900cd6c01
+    Output: [lang=ar]
+تم دمج المستوطنين الهوغونوتيين في مجتمع أمريكا الشمالية بشكل عام من خلال عدة طرق:
+
+*   **ا...
+    Expected: تزوجوا خارج مجتمعاتهم الفرنسية المباشرة...
+    Semantic Similarity: 0.4335520267486572
+
+Low Semantic:
+
+  Example 1:
+    Sample ID: 57294209af94a219006aa201
+    Output: [lang=ar]
+تم نشر الورقة التي استند إليها الرسم البياني "إعادة بناء درجة حرارة نصف الكرة الشمالي الأل...
+    Expected: 1999...
+    Semantic Similarity: 0.44450345635414124
+
+  Example 2:
+    Sample ID: 5728e715ff5b5019007da917
+    Output: [lang=ar]
+
+الهدف من هذه الاحتجاجات هو تعطيل عمل النظام أو المؤسسة المستهدفة، وإجبارها على الدخول في ...
+    Expected: الوصول إلى النقاش...
+    Semantic Similarity: 0.4583519697189331
+
+  Example 3:
+    Sample ID: 5730a4d02461fd1900a9cf29
+    Output: سيطرت فرنسا على الجزائر في 1830.
+...
+    Expected: 1830...
+    Semantic Similarity: 0.4100099503993988
+
+Zero Exact Match:
+
+  Example 1:
+    Sample ID: 5725cc38ec44d21400f3d5bb
+    Output: [lang=ar]
+بدأت المعاهدات الأساسية التي تشكل الاتحاد الأوروبي انطلاقا من القواعد المشتركة المتعلقة با...
+    Expected: المعاهدات الأساسية التي تشكل الاتحاد الأوروبي انطلاقا من القواعد المشتركة المتعلقة بالفحم والفولاذ...
+    Semantic Similarity: 0.8598030805587769
+
+  Example 2:
+    Sample ID: 570d3468b3d812140066d543
+    Output: صناعة السيارات.
+...
+    Expected: أكثر ماركات السيارات رواجا...
+    Semantic Similarity: 0.7689318656921387
+
+  Example 3:
+    Sample ID: 56e7586d37bdd419002c3eb5
+    Output: الولايات المتحدة الأمريكية.
+...
+    Expected: الولايات المتحدة...
+    Semantic Similarity: 0.9868595004081726

@@ -1,0 +1,91 @@
+================================================================================
+ERROR ANALYSIS REPORT
+Configuration: baseline
+Language: TH
+Seed: 42
+Total Samples: 240
+================================================================================
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+semantic_similarity_to_answer      : Mean=0.6088, Std=0.2287, Min=0.0509, Max=1.0000
+bertscore_f1                       : Mean=0.8852, Std=0.0614, Min=0.7442, Max=1.0000
+token_f1                           : Mean=0.3985, Std=0.3341, Min=0.0000, Max=1.0000
+exact_match                        : Mean=0.1125, Std=0.3160, Min=0.0000, Max=1.0000
+
+ERROR CATEGORIES
+--------------------------------------------------------------------------------
+Empty Output                  :     0 (  0.0%)
+Too Short                     :    73 ( 30.4%)
+Too Long                      :     0 (  0.0%)
+Low Semantic                  :    89 ( 37.1%)
+Zero Exact Match              :   213 ( 88.8%)
+Low Bertscore                 :     0 (  0.0%)
+
+FAILURE EXAMPLES
+--------------------------------------------------------------------------------
+
+Too Short:
+
+  Example 1:
+    Sample ID: 5725cc38ec44d21400f3d5bb
+    Output: สนธิสัญญาสำคัญที่ทำให้เกิดสหภาพยุโรปเริ่มต้นด้วยกฎบังคับใช้ร่วมกันว่าด้วยเรื่องถ่านหินและเหล็ก ตามด้...
+    Expected: ด้วย กฎบังคับใช้ร่วมกันว่าด้วยเรื่องถ่านหินและเหล็ก...
+    Semantic Similarity: 0.7096686363220215
+
+  Example 2:
+    Sample ID: 570d3468b3d812140066d543
+    Output: วิคตอเรียกำลังจะเสียโรงงานผลิตรถยนต์ไปครับ
+...
+    Expected: รถยนต์ยี่ห้อดังหลายยี่ห้อ...
+    Semantic Similarity: 0.38698285818099976
+
+  Example 3:
+    Sample ID: 57284b904b864d19001648e2
+    Output: Main Quadrangles
+...
+    Expected: Main Quadrangles...
+    Semantic Similarity: 1.0
+
+Low Semantic:
+
+  Example 1:
+    Sample ID: 570d3468b3d812140066d543
+    Output: วิคตอเรียกำลังจะเสียโรงงานผลิตรถยนต์ไปครับ
+...
+    Expected: รถยนต์ยี่ห้อดังหลายยี่ห้อ...
+    Semantic Similarity: 0.38698285818099976
+
+  Example 2:
+    Sample ID: 56e7586d37bdd419002c3eb5
+    Output: จากข้อมูลที่ให้มา ไม่มีประเทศตะวันตกประเทศใดที่ยังอนุญาตให้มีการลงโทษทางร่างกายในโรงเรียน ยกเว้นสหรั...
+    Expected: สหรัฐ...
+    Semantic Similarity: 0.36740463972091675
+
+  Example 3:
+    Sample ID: 57294209af94a219006aa201
+    Output: กราฟ "Millennial Northern Hemisphere temperature reconstruction" นำมาจากเอกสารปี 1999 โดย ไมเคิล อี....
+    Expected: 1999...
+    Semantic Similarity: 0.47705066204071045
+
+Zero Exact Match:
+
+  Example 1:
+    Sample ID: 5725cc38ec44d21400f3d5bb
+    Output: สนธิสัญญาสำคัญที่ทำให้เกิดสหภาพยุโรปเริ่มต้นด้วยกฎบังคับใช้ร่วมกันว่าด้วยเรื่องถ่านหินและเหล็ก ตามด้...
+    Expected: ด้วย กฎบังคับใช้ร่วมกันว่าด้วยเรื่องถ่านหินและเหล็ก...
+    Semantic Similarity: 0.7096686363220215
+
+  Example 2:
+    Sample ID: 57097d63ed30961900e841fe
+    Output: Virgin Media ตกลงที่จะยุติการพิจารณาคดีของศาลสูงกับ BSkyB
+...
+    Expected: Virgin Media...
+    Semantic Similarity: 0.5578479766845703
+
+  Example 3:
+    Sample ID: 570d3468b3d812140066d543
+    Output: วิคตอเรียกำลังจะเสียโรงงานผลิตรถยนต์ไปครับ
+...
+    Expected: รถยนต์ยี่ห้อดังหลายยี่ห้อ...
+    Semantic Similarity: 0.38698285818099976
